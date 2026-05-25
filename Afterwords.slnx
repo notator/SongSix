@@ -11,6 +11,10 @@
     <File Path="AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
   </Folder>
+  <Folder Name="/HawkinsMeyerOnGod/">
+    <File Path="HawkinsMeyerOnGod/HawkinsMeyerOnGod.htm" />
+    <File Path="HawkinsMeyerOnGod/HawkinsMeyerOnGod.html" />
+  </Folder>
   <Folder Name="/HawkinsTse/">
     <File Path="HawkinsTse/HawkinsTse.htm" />
     <File Path="HawkinsTse/HawkinsTse.html" />
