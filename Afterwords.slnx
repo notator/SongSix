@@ -11,10 +11,6 @@
     <File Path="AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
   </Folder>
-  <Folder Name="/HawkinsMeyerOnGod/">
-    <File Path="HawkinsMeyerOnGod/HawkinsMeyerOnGod.htm" />
-    <File Path="HawkinsMeyerOnGod/HawkinsMeyerOnGod.html" />
-  </Folder>
   <Folder Name="/HawkinsTse/">
     <File Path="HawkinsTse/HawkinsTse.htm" />
     <File Path="HawkinsTse/HawkinsTse.html" />
@@ -31,6 +27,10 @@
   <Folder Name="/LimitsOfPhysicalPerception/">
     <File Path="LimitsOfPhysicalPerception/LimitsOfPhysicalPerception.htm" />
     <File Path="LimitsOfPhysicalPerception/LimitsOfPhysicalPerception.html" />
+  </Folder>
+  <Folder Name="/MeyerTheologyRefutation/">
+    <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.htm" />
+    <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.html" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
