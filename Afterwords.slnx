@@ -28,6 +28,10 @@
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
   </Folder>
+  <Folder Name="/LimitsOfPhysicalPerception/">
+    <File Path="LimitsOfPhysicalPerception/LimitsOfPhysicalPerception.htm" />
+    <File Path="LimitsOfPhysicalPerception/LimitsOfPhysicalPerception.html" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
     <File Path="README.md" />
