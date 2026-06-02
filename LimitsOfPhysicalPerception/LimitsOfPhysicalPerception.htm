@@ -94,9 +94,9 @@
                 margin: 14px 0 6px 0;
                 padding: 0;
             }
-            div.emailQuote
-            {
-                border-left:1px solid blue;
+
+            div.emailQuote {
+                border-left: 1px solid blue;
                 padding-left: 10px;
             }
 
@@ -173,29 +173,112 @@
 <body>
     <h1>The Limits of Physical Perception</h1>
     <hr class="hrTitle" />
-        <div class="note"> This problem is often explained using an analogy with spherical topology: The surface of a sphere is of finite size, but it has no origin. However, I think that analogy is misleading: It leads to absurd ideas like "circular time".</div>
-        <div>            
-            I am an observer. All my observations are made in my present <em>here</em> and <em>now</em>.
-        </div>
-        <div>
-            The past is inferred using incremental backward deduction. If a deduction can&#39;t be made, because it would result in an absurdity (non-existent infinities etc.), it simply stops. Therefore there is no deduceable beginning at &quot;the beginning of time&quot; and hence no singularity. Such cancellations are not unusual in mathematics or programming. They are just boundary conditions in the model.
-        </div>
-        <div>
-            To see why I don&#39;t begin at a particular moment, consider the following argument (Its practically Heraclitus'.):<br />
-            Since my memories are different from those I had yesterday,
-                        I am not the same person I was yesterday, nor am I the person I was at school. I am not a new born baby or a fertilised egg cell either. I&#39;m not even a twinkle in my father&#39;s eye or a twinkle in <em>his</em> father&#39;s eye etc. So I have no beginning in time. &quot;Am&quot; is not &quot;was&quot;. I am only a process happening <em>now</em>.<br />
-            This argument can also be made spatially: My body is not just the sum of its parts, and each part is not the sum of its parts, and so on down to the Planck volume.
-        </div>
-        <div>
-            So
-I think of myself as continuously evolving. Every new experience changes who I am. We are all part of the Universe looking at itself, so that's probably the best way to think about the Universe too.
-        </div>
+    <div id="preamble">
+        <h2>Preamble</h2>
+        This essay builds on work done in my previous essay <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>, and addresses some of the open questions in physics:
+        <ul>
+            <li>infinities</li>
+            <li>how the everyday experience of space and time arises</li>
+            <li>singularities</li>
+            <li>the conflict between relativity and quantum mechanics</li>
 
-        <div>Note carefully, that this argument uses <em>perceived</em> time, not the clock time used by mathematical physicsts. As I&#39;ve shown elsewhere, clock time depends on perceived time, so we can also make a version for physicists that uses clock time.</div>
+        </ul>
+    </div>
+    <hr class="section" />
+    <div id="assumptions">
+        <h2>Assumptions</h2>
+        <ol style="margin-left: 25px;">
+            <li>The <em>observer</em> is defined here to be an ordinary human.
+                <div class="small">
+                    The observer has
+                    <ol>
+                        <li>physically instantiated sense organs that can be used in conjunction with any physically instantiated apparatus.
+                    (thermometers, clocks, microscopes, telescopes, particle colliders etc.)</li>
+                        <li>a memory for recording past events</li>
+                    </ol>
+                    The observer also has internal processes such as thinking and introspection but, in physics, we 
+                    only need to be concerned with the interface between the observer and the physical world outside.)
+                </div>
+            </li>
+            <li>Each observer is part of the physical universe being observed.
+                <div class="small">
+                    The observer therefore necessarily has blind-spots.<br />
+                    (Bernardo Kastrup points out, in a memorable phrase, that brains would <em>dissolve into an entropic soup</em> if they tried to make a complete representation of the external Universe.) 
+                </div>
+            </li>
+            <li>Observations can only be made when the observer is conscious.
+                <div class="small">
+                    Consciuosness includes the awareness of external space and time as separate entities.<br />
+
+                    Note that space does not exist without perceived objects, and time does not exist without perceived events. So consciousness could also be defined as including the awareness of objects and events.<br />
+                    Perceived space and time are part of the brain's strategy for reducing complexity.
+                    Physicist&#39;s space-time is a mathematical model of observed phenomena.
+                </div>
+            </li>
+            <li>All observations are made in the <em>here</em> and <em>now</em><div class="small">
+                Observations cannot be made in the past or future, but they can be <em>recorded</em> so that the <em>recordings</em> can be observed in a <em>now</em> at a later date.
+            </div>
+            </li>
+            <li>Causality can only be observed retrospectively.
+                <div class="small">
+                    In order for two events to be causally linked, its necessary for them both to have happened. 
+                    Induction is possible for predicting future events, but it is unreliable.<br />
+                    Using memory, its possible to infer that a broken egg was once whole, but knowing whether a whole egg will be broken next time one looks is impossible. The Universe evolves unpredictably.
+                </div>
+            </li>
+            <li>Infinite quantities cannot be observed
+                <div class="small">
+                    The observer&#39;s (finite) sensorium would need to be able to register infinitely large quantities. That is clearly impossible.<br />
+                    Ideally, models of the observable universe should use <a target="_blank" href="https://en.wikipedia.org/wiki/Finitism">finitist mathematics</a> but currently they don't, so troublesome infinities sometimes appear.<br />
+                </div>
+            </li>
+        </ol>
+    </div>
+    <hr class="section" />
+    <div id="arguments">
+        <h2>Arguments</h2>
+        <div class="note" style="text-align: center; margin-left: 60px; margin-right: 60px;">
+            Assumptions are referred to by number, like this: [2]
+        </div>
         <div>
+            Let John be a conscious observer [1][2][3].<br />
+            John's observations are all made in his <em>here</em> and <em>now</em> [4].
+        </div>
+        <div id="bigBangSingularity">
+            <h3>The absence of a singularity at the beginning of the Big Bang</h3>
+            <div>
+                John can either use his memory to infer a past state or, if his memory is too short (the past state he is trying to infer is before he existed) he can infer it using recursive backward causal deduction [5] in conjunction with further observations.<br />
+                This process can reach back in time indefinitely, but it will eventually stop when no valid deduction can be made. Infinite quantities cannot be observed [6], so a state containing one would be invalid, causing the recursion to terminate. Such a recursion can continue to the beginning of time, return a finite number of states, and terminate properly, but it will never return an unwanted infinite quantity.<br />
+                The singularity at the beginning of the Big Bang is simply a problem with the mathematical model. Its a programming error.<br />
+                The current model appears to use forward causality. This is a mistake.
+            </div>
+        </div>
+        <div id="perceivedTimeSingularity">
+            <h3>The absence of a singularity at the beginning of perceived time</h3>
+            <div>
+                To see why I don&#39;t begin at a particular moment, consider the following argument (Its practically Heraclitus'.):<br />
+                Since my memories are different from those I had yesterday,
+                        I am not the same person I was yesterday, nor am I the person I was at school. I am not a new born baby or a fertilised egg cell either. I&#39;m not even a twinkle in my father&#39;s eye or a twinkle in <em>his</em> father&#39;s eye etc. So I have no beginning in time. &quot;Am&quot; is not &quot;was&quot;. I am only a process happening <em>now</em>.<br />
+                This argument can also be made spatially: My body is not just the sum of its parts, and each part is not the sum of its parts, and so on down to the Planck volume.
+            </div>
+            <div>
+                So
+I think of myself as continuously evolving. Every new experience changes who I am. We are all part of the Universe looking at itself, so that's probably the best way to think about the Universe too.
+            </div>
+
+            <div>
+                Note carefully, that this argument uses <em>perceived</em> time, not the clock time used by mathematical physicsts. As I&#39;ve shown elsewhere, clock time depends on perceived time, so we can also make a version for physicists that uses clock time.
+            </div>
+        </div>
+        <div id="unboundedUniverse">
+            <h3>The Universe is finite but unbounded</h3>
+                            <div class="small">This is often explained using an analogy with spherical topology: The surface of a sphere is of finite size, but it has no origin. However, that analogy is misleading: It leads to absurd ideas like "circular time". A better argument is given below</div>
+        </div>
+        <div id="relativityQuantumProblem">
+            <h3>Resolving the conflict between relativity and quantum theory</h3>
             The conclusion that time and space are finite but have no limits provides a possible answer to the theoretical conflict between Relativity and Quantum Physics.<br />
             Time ceases to contain observable <em>events</em>, and space ceases to contain observable <em>objects</em> in each of the following borderline cases:<br />
-                    We can never, even in principle, observe: 
+            We can never, even in principle, observe: 
                     <ul style="margin-left: 20px">
                         <li>Events or objects outside the observable Universe. (On the very large scale, beyond the microwave background radiation.)<br />
                             Interestingly, we are at the centre of a sphere that is expanding at the speed of light, on which there is a static picture of the microwave background radiation. Both time and space stop there. Physicists tell us that the Big Bang didn't happen at any particular place (or time), but 
@@ -203,27 +286,28 @@ I think of myself as continuously evolving. Every new experience changes who I a
                         <li>Events or objects inside a Black Hole. As with the microwave background radiation, objects falling into a Black Hole appear to us to stop on its event horizon.</li>
                         <li>Anything below the Planck scale.<br />
                             According to Claude (AI):
-                            <div class=emailQuote><em>In most quantum gravity approaches, both space and time disappear from the fundamental equations, and must somehow emerge together at larger scales as approximate, classical concepts. How the familiar flowing time and extended space of everyday experience arise from a timeless, spaceless — or foamy, discrete — quantum substrate remains one of the greatest open questions in theoretical physics.</em></div>
+                            <div class="emailQuote"><em>In most quantum gravity approaches, both space and time disappear from the fundamental equations, and must somehow emerge together at larger scales as approximate, classical concepts. How the familiar flowing time and extended space of everyday experience arise from a timeless, spaceless — or foamy, discrete — quantum substrate remains one of the greatest open questions in theoretical physics.</em></div>
                             According to my essay <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>,
                             <ul>
                                 <li><em>Consciousness</em> is the awareness of [everyday] time and space.<br />
                                     Time and space are the brain's strategy for reducing complexity &mdash; so as to avoid becoming an "entropic soup".
                                 </li>
-                                <li><em>Spacetime</em> is the entity beyond the dashboard that we experience as [everyday] space and time on this side of the dashboard. Physicists use mathematical models to describe it.</li>                                
+                                <li><em>Spacetime</em> is the entity beyond the dashboard that we experience as [everyday] space and time on this side of the dashboard. Physicists use mathematical models to describe it.</li>
                             </ul>
-                            </ul>
+                    </ul>
             <div>
-                            So idealism seems to have an answer to 
+                So idealism seems to have an answer to 
                             two of physics&#39; big problems:
                             <ul>
                                 <li>The conflict between Relativity and Quantum theory (physics of the very large and the very small)</li>
                                 <li>How the everyday experience of space and time emerges.</li>
                             </ul>
-                    </div>
+            </div>
         </div>
-
+    </div>
     <section class="signature">
         <hr class="hrTitle" style="margin-top: 20px; margin-bottom: 10px;" />
-        ji www 2nd June 2026 </section>
+        ji www 3rd June 2026
+    </section>
 </body>
 </html>
