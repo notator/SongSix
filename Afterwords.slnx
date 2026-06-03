@@ -28,10 +28,6 @@
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
   </Folder>
-  <Folder Name="/Solution Items/LimitsOfPhysicalPerception/">
-    <File Path="LimitsOfPhysicalPerception/LimitsOfPhysicalPerception.htm" />
-    <File Path="LimitsOfPhysicalPerception/LimitsOfPhysicalPerception.html" />
-  </Folder>
   <Folder Name="/Solution Items/MeyerTheologyRefutation/">
     <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.htm" />
     <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.html" />
@@ -66,6 +62,10 @@
     <File Path="TheArrowOfTime/resources/potassiumGate.png" />
     <File Path="TheArrowOfTime/resources/pumpCycle.png" />
     <File Path="TheArrowOfTime/resources/sodiumGate.png" />
+  </Folder>
+  <Folder Name="/Solution Items/TheLimitsOfObservation/">
+    <File Path="TheLimitsOfObservation/TheLimitsOfObservation.htm" />
+    <File Path="TheLimitsOfObservation/TheLimitsOfObservation.html" />
   </Folder>
   <Folder Name="/Solution Items/TheOriginOfTime/">
     <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
