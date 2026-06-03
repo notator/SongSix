@@ -100,6 +100,13 @@
                 padding-left: 10px;
             }
 
+        pre
+        {
+            width:550px;
+            margin-top:5px;
+            margin-bottom:5px;
+        }
+
         .todo {
             background-color: #FFCCCC;
         }
@@ -232,13 +239,13 @@
                     model are intrinsically reversible because the measuring rods and clocks used to develop it are internally symmetrical: It makes no difference to Einstein's original argument if his measuring rods or clocks are reversed. In the case of clocks: its impossible to tell by looking, whether a film of a swinging pendulum is running forwards or backwards. 
                 </div>
             </li>
-            <li>Causality can only be observed retrospectively, in Perceived time.
+            <li><div class=todo><strong>This has been used inline, so delete</strong><br /> Causality can only be observed retrospectively, in Perceived time.
                 <div class="small">
                     In order for two events to be causally linked, its necessary for them both to have happened 
                     in perceived time. 
                     Induction is possible for predicting future events, but it is unreliable.<br />
                     Using memory, its possible for an observer to infer that a broken egg was once whole, but knowing whether a whole egg will be broken the next time the observer looks is impossible. The Universe evolves unpredictably.
-                </div>
+                </div></div>
             </li>
             <li>Infinite quantities cannot be observed
                 <div class="small">
@@ -249,8 +256,97 @@
         </ol>
     </div>
     <hr class="section" />
+    
+    <div id="theGeneralLimitsOfObservation">
+        <h2>The general limits of observation</h2>
+        <div>
+                        Following Heraclitus, I believe that an observer is a process in the continuous present: <div>
+                            The time I have in which to observe the physical world</div>
+                        <ul>
+                            <li>is obviously finite.<br />
+                            This is the time in which my physical senses are working &mdash; roughly speaking, the time between my birth and death.</li>
+                            <li>has no beginning.<br />
+                                I am not the same person as I was a moment ago because I now have new <em>memories</em>. And I am obviously not a new born baby, a fertilised egg, or even a twinkle in my father's eye. Therefore my perceived time has no beginning, and I must be a process happening in <em>now</em>.</li>
+                        </ul>
+                    </div>
+                    
+        
 
-    <div class="todo" id="oldArguments">
+    </div>
+<hr class="section" />
+    <div id="theLimitsOfObservationInPhysics">
+        <h2>The limits of observation in physics</h2>
+        <div class="note" style="text-align: center; margin-left: 60px; margin-right: 60px;">
+            Assumptions are referred to by number, like this: [2]
+        </div>
+        <div id=causality>
+            <h3>Causality</h3>
+            Causality can only be observed <em>retrospectively</em>. In order for a causal link to be established between two events, they both have to be available for inspection. Induction is possible for predicting future events, but it is unreliable.<br />
+Using <em>memory</em> of whole eggs, its possible for an observer to infer that a broken egg was once whole, but knowing whether a whole egg will be broken the next time the observer looks at it is impossible. The Universe evolves unpredictably.
+            </div>
+
+        <div id="theScientificMethod">
+            <h3>The scientific method</h3>
+            <div>
+                In order to make progress, scientists use induction to create new hypotheses from existing knowledge. If a hypothesis survives an empirical test, they add it to their current knowledge. Otherwise they reject it and think again.
+            </div>
+            <div>
+                Unobservable hypotheses are illegal because they are not empirically testable, so the following pseudo-code includes a check for that, 
+                and returns omegaState (neither true nor false) if the check fails:
+            </div>
+            <pre id="scientificMethodCode">
+    scientificMethod(observer, hypothesis)
+   {
+      if(observer.observable(hypothesis) == true) {
+         result = observer.observe(observer.currentKnowledge, hypothesis);
+         // result is true or false
+      }
+      else {
+         result = omegaState; // neither true nor false.
+      }
+      return result;
+   }</pre>
+                
+            
+        </div>
+
+        <div id="solvingTheRelativityQuantumProblem">
+            <h3>Resolving the conflict between relativity and quantum theory</h3>
+            In the following cases, perceived time and perceived space no not exist, since these places contain no observable events or objects:<br />
+            We can never, even in principle, observe events or objects: 
+                    <ul style="margin-left: 20px">
+                        <li>outside our observable Universe. (On the very large scale, beyond the microwave background radiation.)<br />
+                            Interestingly, we are at the centre of a sphere that is expanding at the speed of light, on which there is a static picture of the microwave background radiation. 
+                            Physicists tell us that the Big Bang didn&#39;t happen at any particular place (or time), but we are at the centre of our observable universe. Ptolemy was right after all! :-)</li>
+                        <li>Inside a Black Hole&#39;s event horizon. As with the microwave background radiation, objects falling into a Black Hole appear to us to stop on its event horizon.</li>
+                        <li>Inside a Planck volume.<br />
+                            According to Claude (AI):
+                            <div class="emailQuote"><em>In most quantum gravity approaches, both space and time disappear from the fundamental equations, and must somehow emerge together at larger scales as approximate, classical concepts. How the familiar flowing time and extended space of everyday experience arise from a timeless, spaceless — or foamy, discrete — quantum substrate remains one of the greatest open questions in theoretical physics.</em></div>
+                            According to my essay <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>,
+                            perceived space and perceived time are created by consciousness, while spacetime is a mathematical model that explains empirical facts beyond the range covered by the human senses. That space and time disappear at the quantum level in the spacetime model is simply equivalent to saying that space and time become <em>unobservable</em> at that level &mdash; even when assisted by arbitrarily powerful apparatus.
+                    </ul>
+            <div>
+                So
+                these boundaries:
+                <ol>
+                    <li>mark both the spatial limits of human perception (assisted by arbirarily powerful apparatus) and the domain of experimental physics.<br />
+                        Even if we could develop a physical theory that applied beyond these limits, it would be impossible to test it empirically. The scientific method simply cannot be applied. (This is, as I understand it, what happened to String Theory.)
+                        </li>
+                    <li>are functionally equivalent.<br />
+                        Relativity tells us what happens at the edge observable universe and on a black hole's event horizon. Quantum theory tells us what happens down to the Plank scale. 
+                        The mathematics of relativity and quantum theory are therefore functionally equivalent at their limits. Beyond those limits lie neither space nor time.</li>
+                </ol></div>
+        </div>
+    </div>
+    <hr class="section" />
+
+    <div id="conclusion">
+                <h2>Conclusion</h2>
+        <div>
+    That perceived time has no beginning in the Heraclitian model contrasts strangely with the omega-state in the account of physical observability.</div>
+        The omega-state must therefore be one of the blind-spots that result from our being observers trying to observe the universe of which we are part.</div>
+
+        <div class="todo" id="oldArguments">
         <h2>Arguments (old version)</h2>
         <div class="note" style="text-align: center; margin-left: 60px; margin-right: 60px;">
             Assumptions are referred to by number, like this: [2]
@@ -320,70 +416,6 @@ I think of myself as continuously evolving. Every new experience changes who I a
             </div>
         </div>
     </div>
-
-    <div id="theLimitsOfObservationInPhysics">
-        <h2>The limits of observation in physics</h2>
-        <div class="note" style="text-align: center; margin-left: 60px; margin-right: 60px;">
-            Assumptions are referred to by number, like this: [2]
-        </div>
-        <div id="TheLimitsOfCausality">
-            <h3>The limits of causal inference (avoiding unwanted infinities or singularities)</h3>
-            <div class="todo">
-                describe how a recursive function can return an arbitrarily large but finite number of valid states, and how such a function can use retrospective causality to describe our view of the universe. (canibalise the previous version, explaining it more abstractly first, then saying that it applies in the relevant domains.
-            </div>
-        </div>
-
-        <div id="solvingTheRelativityQuantumProblem">
-            <h3>Resolving the conflict between relativity and quantum theory</h3>
-            In the following cases, perceived time and perceived space no not exist, since these places contain no observable events or objects:<br />
-            We can never, even in principle, observe events or objects: 
-                    <ul style="margin-left: 20px">
-                        <li>outside our observable Universe. (On the very large scale, beyond the microwave background radiation.)<br />
-                            Interestingly, we are at the centre of a sphere that is expanding at the speed of light, on which there is a static picture of the microwave background radiation. 
-                            Physicists tell us that the Big Bang didn&#39;t happen at any particular place (or time), but we are at the centre of our observable universe. Ptolemy was right after all! :-)</li>
-                        <li>Inside a Black Hole&#39;s event horizon. As with the microwave background radiation, objects falling into a Black Hole appear to us to stop on its event horizon.</li>
-                        <li>Inside a Planck volume.<br />
-                            According to Claude (AI):
-                            <div class="emailQuote"><em>In most quantum gravity approaches, both space and time disappear from the fundamental equations, and must somehow emerge together at larger scales as approximate, classical concepts. How the familiar flowing time and extended space of everyday experience arise from a timeless, spaceless — or foamy, discrete — quantum substrate remains one of the greatest open questions in theoretical physics.</em></div>
-                            According to my essay <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>,
-                            perceived space and perceived time are created by consciousness, while spacetime is a mathematical model that explains empirical facts beyond the range covered by the human senses. That space and time disappear at the quantum level in the spacetime model is simply equivalent to saying that space and time become <em>unobservable</em> at that level &mdash; even when assisted by arbitrarily powerful apparatus.
-                    </ul>
-            <div>
-                So
-                these boundaries:
-                <ol>
-                    <li>mark both the spatial limits of human perception (assisted by arbirarily powerful apparatus) and the domain of experimental physics.<br />
-                        Even if we could develop a physical theory that applied beyond these limits, it would be impossible to test it empirically. The scientific method simply cannot be applied. (This is, as I understand it, what happened to String Theory.)
-                        </li>
-                    <li>are functionally equivalent.<br />
-                        Relativity tells us what happens at the edge observable universe and on a black hole's event horizon. Quantum theory tells us what happens down to the Plank scale. 
-                        The mathematics of relativity and quantum theory are therefore functionally equivalent at their limits. Beyond those limits lie neither space nor time.</li>
-                </ol></div>
-        </div>
-    </div>
-    <hr class="section" />
-    <div id="theGeneralLimitsOfObservation">
-        <h2>The general limits of observation</h2>
-                    <div>
-                        Following Heraclitus, I believe that an observer is a process in the continuous present: <div>
-                            The time I have in which to observe the physical world</div>
-                        <ul>
-                            <li>is obviously finite.<br />
-                            This is the time in which my physical senses are working &mdash; roughly speaking, the time between my birth and death.</li>
-                            <li>has no beginning.<br />
-                                I am not the same person as I was a moment ago because I now have new <em>memories</em>. And I am obviously not a new born baby, a fertilised egg, or even a twinkle in my father's eye. Therefore my perceived time has no beginning, and I must be a process happening in <em>now</em>.</li>
-                        </ul>
-                    </div>
-                    
-        
-
-    </div>
-    <hr class="section" />
-    <div id="conclusion">
-                <h2>Conclusion</h2>
-        <div>
-    That perceived time has no beginning in the Heraclitian model contrasts strangely with the omega-state in the account of physical observability.</div>
-        The omega-state must therefore be one of the blind-spots that result from our being observers trying to observe the universe of which we are part.</div>
     <section class="signature">
         <hr class="hrTitle" style="margin-top: 20px; margin-bottom: 10px;" />
         ji www 4th June 2026
