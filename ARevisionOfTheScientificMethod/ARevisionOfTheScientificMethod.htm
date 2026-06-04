@@ -101,9 +101,10 @@
             }
 
         pre {
-            width: 550px;
+            width: 510px;
             margin-top: 5px;
             margin-bottom: 5px;
+            margin-left: 25px;
         }
 
         span.code
@@ -208,7 +209,7 @@
         <h2>The limits of perceived time</h2>
         <div>
             As an observer, the time I have in which to observe the physical world
-            <ul>
+            <ul style="margin-left: 25px">
                 <li>is obviously finite.<br />
                     This is the time in which my physical senses are working &mdash; roughly speaking, the time between my birth and death.</li>
                 <li>has no beginning.<br />
@@ -221,7 +222,7 @@
                 This applies to <em>all</em> the observations that I make while alive, not just to those related to the purely physical, outside world.<br />
                 It also applies to
                 my observations of
-                <ul>
+                <ul style="margin-left: 25px">
                     <li>the twinkle in my father&#39;s eye or the colour red (a qualium)</li>
                     <li>the memories stored in my physically observable brain.</li>
                     <li>any memories that might be stored beyond the dashboard of my experience. See <a target="_self" href="#analyticIdealism">Analytic Idealism</a>.</li>
@@ -240,17 +241,17 @@
                 and returns <span class=code>&quot;notTestable&quot;</span> (neither <span class=code>&quot;refuted&quot;</span> nor <span class=code>&quot;notRefuted&quot;</span>) if the check fails:
         </div>
         <pre id="scientificMethodCode">
-    scientificMethod(observer, hypothesis)
-   {
-      if(observer.canTest(hypothesis) == true) {
-         result = observer.test(observer.currentKnowledge, hypothesis);
-         // result is &quot;refuted&quot; or &quot;notRefuted&quot;
-      }
-      else {
-         result = &quot;notTestable&quot;; // neither &quot;refuted&quot; nor &quot;notRefuted&quot;.
-      }
-      return result;
-   }</pre>
+scientificMethod(observer, hypothesis)
+{
+   if(observer.canTest(hypothesis) == true) {
+      result = observer.test(observer.currentKnowledge, hypothesis);
+      // result is &quot;refuted&quot; or &quot;notRefuted&quot;
+   }
+   else {
+      result = &quot;notTestable&quot;; // neither &quot;refuted&quot; nor &quot;notRefuted&quot;.
+   }
+   return result;
+}</pre>
         <div>
             The <span class=code>observer.canTest()</span> function returns <span class=code>true</span> if the observer has provided an empirical test for the hypothesis. Otherwise it returns false.
         </div>
@@ -291,7 +292,7 @@
     <section id="illegalHypotheses">
         <h3>Reconciling relativity and quantum mechanics</h3>
         We can never, even in principle, observe events or objects: 
-                    <ul style="margin-left: 20px">
+                    <ul style="margin-left: 25px">
                         <li>outside the observable Universe. (On the very large scale, beyond the microwave background radiation.)<br />
                             Interestingly, we are at the centre of a sphere that is expanding at the speed of light, on which we can see a static picture of the microwave background radiation. 
                             Physicists tell us that the Big Bang didn&#39;t happen at any particular place (or time), but we are at the centre of our observable universe. Ptolemy was right after all! :-)</li>
@@ -305,9 +306,8 @@
                         at that level &mdash; even when assisted by arbitrarily powerful apparatus.
                     </ul>
         <div>
-            So
-                these regions:
-                <ol>
+            So these regions:
+                <ol style="margin-left: 25px">
                     <li>mark both the spatial limits of human perception (assisted by arbirarily powerful apparatus) and the domain of experimental physics.<br />
                     </li>
                     <li>are indistinguishable from one another.<br />
