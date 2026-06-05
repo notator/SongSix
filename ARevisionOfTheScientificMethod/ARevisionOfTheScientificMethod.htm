@@ -189,53 +189,25 @@
         <h2>Summary</h2>
         <div>
             A revision of <a target="_blank" href="https://en.wikipedia.org/wiki/Scientific_method">the standard scientific method</a> is proposed that explicitly handles untestable hypotheses.<br />
-            Arguments 
-            are presented showing that both <a target="_self" href="#fTypesOfTime">perceived time and clock time</a> are finite, but that neither of them has a precise beginning.
-
-        </div>
-        <div>Consequences include
-            <ul style="margin-left:25px;">
-                <li>infinities produced by hypotheses in physics are illegal artefacts that must be ignored. There are no singularities.</li>
-                <li>the reconciliation of relativity and quantum theory</li>
-                <li>the inclusion of <em>all</em> hypotheses, not just those relating to science, in the same methodology.</li>
+            Arguments are presented showing that
+            <ul>
+                <li>both <a target="_self" href="#fTypesOfTime">clock time and perceived time</a> are growing in size</li>
+                <li>clock time is finite, but its beginning is intrinsically undefinable</li>
+                <li>perceived time is also finite but it has no beginning</li>
+                <li>mathematical physicists can and should ignore infinities</li>
+                <li>relativity and quantum theory can be reconciled</li>
+                <li> <em>all</em> hypotheses, not just scientific ones, can be included in the same methodology.</li>
             </ul>
         </div>
         <div class=small>
-            Have I made any serious mistakes?
-            Corrections, clarifications and other suggestions for improvements would be very welcome. My email address can be found <a target="_blank" href="https://james-ingram-act-two.de/impressum/curriculumVitae.html">here</a>.
-        </div>
-    </section>
-    <hr class="section" />
-    <section id="theGeneralLimitsOfObservation">
-        <h2>The limits of perceived time</h2>
-        <div>
-            As an observer, the time I have in which to observe the physical world
-            <ul style="margin-left: 25px">
-                <li>is obviously finite.<br />
-                    This is the time in which my physical senses are working &mdash; roughly speaking, the time between my birth and death.</li>
-                <li>has no beginning.<br />
-                    Following Heraclitus:
-                    I am not the same person as I was a moment ago because I now have new <em>memories</em>. And I am obviously not a new born baby, a fertilised egg, or even a twinkle in my father's eye.<br />
-                    Observation is thus the process of gathering <em>memories</em> during <em>now</em>.<br />
-                    The beginning of that <em>now</em> depends on how the memories are being formed &mdash; which is itself a process that has no well defined beginning.</li>
-            </ul>
-            <div>
-                This applies to <em>all</em> the observations that I make while alive, not just to those related to the purely physical, outside world.<br />
-                It also applies to
-                my observations of
-                <ul style="margin-left: 25px">
-                    <li>colours (qualia)</li>
-                    <li>the memories stored in my physically observable brain.</li>
-                    <li>any memories that might be stored beyond the dashboard of my experience. See <a target="_self" href="#fAnalyticIdealism">Analytic Idealism</a>.</li>
-                </ul>
-            </div>
+            Feedback describing any serious mistakes, or details that could be improved, would be very welcome. My email address can be found <a target="_blank" href="https://james-ingram-act-two.de/impressum/curriculumVitae.html">here</a>.
         </div>
     </section>
     <hr class="section" />
     <section id="theScientificMethod">
-        <h3>A revision of the scientific method</h3>
+        <h3>The revision</h3>
         <div>
-            The current version of <a href="https://en.wikipedia.org/wiki/Scientific_method">the scientific method</a> assumes that hypotheses can always be tested, so it fails to deal cleanly with those that can&#39;t.&nbsp; This is a shortcoming that needs to be corrected.
+            The current version of <a href="https://en.wikipedia.org/wiki/Scientific_method">the scientific method</a> fails to deal cleanly with hypotheses that can&#39;t be tested.
         </div>
         <div>
             The following pseudo-code includes a check for testability, 
@@ -246,7 +218,7 @@ scientificMethod(observer, hypothesis)
 {
    if(observer.canTest(hypothesis) == true) {
       result = observer.test(observer.currentKnowledge, hypothesis);
-      // result is &quot;refuted&quot; or &quot;notRefuted&quot;
+      // result is &quot;refuted&quot; or &quot;notRefuted&quot; (Popper)
    }
    else {
       result = &quot;notTestable&quot;; // neither &quot;refuted&quot; nor &quot;notRefuted&quot;.
@@ -254,39 +226,37 @@ scientificMethod(observer, hypothesis)
    return result;
 }</pre>
         <div>
-            The <span class=code>observer.canTest()</span> function returns <span class=code>true</span> if the observer has provided an empirical test for the hypothesis. Otherwise it returns false.
-        </div>
+            The <span class=code>observer.canTest()</span> function returns <span class=code>true</span> if the observer has provided a test for the hypothesis. Otherwise it returns false. In physics, this test must always be empirical. In other domains it could simply be a proof that the hypothesis contains unresolved problems or contradictions.</div>
         <div>
-            Hypotheses that include infinite values are intrinsically untestable, since no finite, empirical experiments can be created to test them.<br />
-            This means that any infinite value or singularity, such as the one that currently appears at the beginning of the Big Bang, 
-            must be ignored. It has the same status as &quot;I believe in angels&quot;.</div>
-        <div>
-                Note too that the lack of a "beginning of time" in the Heraclitian model is consistent with the <span class=code>&quot;notTestable&quot;</span> results being returned by the <span class=code>scientificMethod()</span> function: It&#39;s impossible to create a test for something that doesn&#39;t exist!
-        </div>
+            Hypotheses about the physical world that include infinite values are intrinsically untestable, since no finite, empirical experiments can be created to test them. This means that any infinite value or singularity, such as the one that currently appears at the beginning of the Big Bang, 
+            must be ignored. It has the same status as &quot;There are angels&quot;.</div>
+        
         <div class="note">
             Changing the scientific method in this way means that <em>all</em> hypotheses, not just those relating to what we currently call science, become subject to the same methodology.<br />
-            A hypothesis such as "I have a guardian angel." is <span class=code>&quot;notTestable&quot;</span> until the empirical test can be formulated. After that, the hypothesis can be either <span class=code>&quot;refuted&quot;</span> or <span class=code>&quot;notRefuted&quot;</span> .
+            A hypothesis such as "There are angels" is <span class=code>&quot;notTestable&quot;</span> until the test can be formulated. After that, the hypothesis can be either <span class=code>&quot;refuted&quot;</span> or <span class=code>&quot;notRefuted&quot;</span> .
         </div>
     </section>
     <hr class="section" />
     <section id="theBeginningOfClockTime">
         <h2>The limits of clock time</h2>
         <div>
-    Causality can only be determined <em>retrospectively</em>.
-         </div>
-        <div class="note">
-    In order for a causal link to be established between two events, they both have to be available for inspection. Induction is possible for predicting future events, but its unreliable.
-    <div>
-        For example:
-        Using <em>memory</em> of whole eggs, its possible for an observer to infer that a broken egg was once whole, but it is impossible to know whether a whole egg will be broken the next time the observer looks at it. The egg might even have disappeared altogether...
-    </div>
-    This means that it is a mistake to think that the Universe's evolution is forseeable. On the contrary, its forward evolution is intrinsically unpredictable.
+            First, a digression about causality:
+            <div class="note">            
+                Causality can only be infered <em>retrospectively</em>.<br />
+                In order for a causal link to be established between two events, they both have to be available for inspection. Induction is possible for predicting future events, but its unreliable.        
+                <div class="note">
+                    Example:
+                    Using <em>memory</em> of whole eggs, its possible for an observer to infer that a broken egg was once whole, and that some event <em>caused</em> it to break.<br />
+                    But it is impossible to know whether a whole egg will be still be whole some time in the future, when the observer looks at it again. Some event may or may not have <em>caused</em> it to break, or it might have disappeared altogether...
+                </div>
+                This means that it is a mistake to think that the Universe's evolution is exactly forseeable. On the contrary, its evolution is intrinsically unpredictable.
+            </div>
         </div>
         <div>
-            Physicists have constructed a causal chain backwards from the current <em>now</em>, and have calculated the age of the Universe to be ca. 13.8 billion years. There is no reason to doubt this figure. It is definitely finite.<br />
-            But note that the causal link to the previous moment becomes <span class=code>&quot;notTestable&quot;</span> when quantum effects and/or the distortion of spacetime make testability impossible. </div>
+            Physicists have constructed a causal chain backwards from the current <em>now</em>, and have calculated the age of the Universe to be ca. 13.8 billion years. There is no reason to doubt this figure. It is definitely finite.</div>
+            But note that the causal link to the previous moment in the chain becomes <span class=code>&quot;notTestable&quot;</span> when quantum effects and/or the distortion of spacetime make testability impossible. 
         <div>
-            So physical (clock) time, like observed time, is finite, and has no precise beginning.
+            So physical (clock) time is finite, and its beginning depends on where/when a test can be made as spacetime dissolves into quantum uncertainty.
         </div>
     </section>    
     <hr class="section" />
@@ -319,6 +289,34 @@ scientificMethod(observer, hypothesis)
                         Its no surprise that we see different rules applying when we look down in scale, and when we look up. These are the rules <em>we</em> have discovered...<br />
                     </li>
                 </ol>
+        </div>
+    </section>
+        <hr class="section" />
+    <section id="theGeneralLimitsOfObservation">
+        <h2>The limits of perceived time</h2>
+        <div>
+            As an observer, the time I have in which to observe the physical world
+            <ul style="margin-left: 25px">
+                <li>is obviously finite.<br />
+                    This is the time in which my physical senses are working &mdash; roughly speaking, the time between my birth and death.</li>
+                <li>has no beginning.<br />
+                    Following Heraclitus:
+                    I am not the same person as I was a moment ago because I now have new <em>memories</em>. And I am obviously not a new born baby, a fertilised egg, or even a twinkle in my father's eye etc.<br />
+                    Observation is thus the process of gathering <em>memories</em> during <em>now</em>.<br />
+                    The beginning of that <em>now</em> depends on how the memories are being formed &mdash; which is itself a process that has no well defined beginning.</li>
+            </ul>
+            <div>
+                This applies to <em>all</em> the observations that I make while alive, not just to those related to the purely physical, outside world.<br />
+                It also applies to
+                my observations of
+                <ul style="margin-left: 25px">
+                    <li>colours (qualia)</li>
+                    <li>the memories stored in my physically observable brain.</li>
+                    <li>any memories that might be stored beyond the dashboard of my experience. See <a target="_self" href="#fAnalyticIdealism">Analytic Idealism</a>.</li>
+                </ul>
+                <div>
+                    Since the list of things that I am not can be continued back to the Big Bang, and I am part of the Universe observing itself,&nbsp;
+                    I think the process by which I am gathering memories must be part of the process that began with the Big Bang.</div>
         </div>
     </section>
     <hr class="section" />

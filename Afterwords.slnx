@@ -15,6 +15,10 @@
     <File Path="AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
   </Folder>
+  <Folder Name="/Solution Items/ARevisionOfTheSientificMethod/">
+    <File Path="ARevisionOfTheScientificMethod/ARevisionOfTheScientificMethod.htm" />
+    <File Path="ARevisionOfTheScientificMethod/ARevisionOfTheScientificMethod.html" />
+  </Folder>
   <Folder Name="/Solution Items/HawkinsTse/">
     <File Path="HawkinsTse/HawkinsTse.htm" />
     <File Path="HawkinsTse/HawkinsTse.html" />
@@ -66,9 +70,5 @@
   <Folder Name="/Solution Items/TheOriginOfTime/">
     <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
     <File Path="TheOriginOfTime/TheOriginOfTime.html" />
-  </Folder>
-  <Folder Name="/Solution Items/TheScientificMethod/">
-    <File Path="TheScientificMethod/TheScientificMethod.htm" />
-    <File Path="TheScientificMethod/TheScientificMethod.html" />
   </Folder>
 </Solution>
