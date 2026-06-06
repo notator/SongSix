@@ -2,7 +2,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="consciousness, perception, Kastrup, Hoffman, Lawson, time, chunk, chunking, closure, interface, interface theory of perception, scientific method">
-    <title>The Scientific Method</title>
+    <title>The Philosophic Method</title>
     <link href="../../styleSheet.css" rel="stylesheet" type="text/css" />
     <style>
         body {
@@ -11,8 +11,8 @@
             font-family: Verdana, Arial, Geneva, Sans-Serif;
             font-size: 12px;
             line-height: 20px;
-            margin: 30px 30px 2000px 30px; /* margin-bottom allows scrolling to lowest internal link */
-            width: 500px;
+            margin: 30px 30px 1600px 30px; /* margin-bottom allows scrolling to lowest internal link */
+            width: 501px;
         }
 
         h1 {
@@ -79,12 +79,6 @@
                 margin: 0;
             }
 
-            div.appendix {
-                margin: 0;
-                border: 5px solid #AEA;
-                padding: 0 20px 0 20px;
-            }
-
             div.small {
                 font-size: 8.25pt;
                 line-height: 150%;
@@ -99,6 +93,11 @@
                 border-left: 1px solid blue;
                 padding-left: 10px;
             }
+
+        section.footnotes {
+            border: 2px solid #10C610;
+            padding: 0 20px 0 20px;
+        }
 
         pre {
             width: 510px;
@@ -152,8 +151,8 @@
 
         hr.appendixInternal {
             border-style: none;
-            height: 1px;
-            background-color: #0A0;
+            height: 2px;
+            background-color: #10C610;
             margin: 10px 0 8px 0;
         }
 
@@ -183,18 +182,18 @@
     </style>
 </head>
 <body>
-    <h1>A Revision of the Scientific Method</h1>
+    <h1>The Philosophic Method</h1>
     <hr class="hrTitle" />
     <section id="summary">
         <h2>Summary</h2>
         <div>
-            A revision of <a target="_blank" href="https://en.wikipedia.org/wiki/Scientific_method">the standard scientific method</a> is proposed that explicitly handles untestable hypotheses.
+            This philosophic method is an extension of <a target="_blank" href="https://en.wikipedia.org/wiki/Scientific_method">the scientific method</a> that explicitly handles untestable hypotheses.
         </div>
         <div>
             Building on my previous essay, <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>, it is assumed that there are <a target="_self" href="#fTypesOfTime">two types of time</a>: clock time (the time used in physics) and perceived time.
         </div>
         <div>
-            Arguments are presented showing that
+            While using this method, it is shown that
             <ul>
                 <li>clock time is finite, but its beginning is intrinsically undefinable</li>
                 <li>perceived time is also finite but it has no beginning</li>
@@ -209,20 +208,21 @@
     </section>
     <hr class="hrSection" />
     <section id="theScientificMethod">
-        <h2>The revision</h2>
+        <h2>The proposed extension</h2>
         <div>
-            The current version of <a href="https://en.wikipedia.org/wiki/Scientific_method">the scientific method</a> fails to deal cleanly with hypotheses that can&#39;t be tested.
+            <a href="https://en.wikipedia.org/wiki/Scientific_method">The scientific method</a> is limited to testable hypotheses. It therefore fails to deal cleanly with hypotheses that <em>can&#39;t</em> be tested.
         </div>
         <div>
             The following pseudo-code includes a check for testability, 
                 and returns <span class=code>&quot;notTestable&quot;</span> (neither <span class=code>&quot;refuted&quot;</span> nor <span class=code>&quot;notRefuted&quot;</span>) if the check fails:
         </div>
         <pre id="scientificMethodCode">
-scientificMethod(observer, hypothesis)
+philosophicMethod(observer, hypothesis)
 {
    if(observer.canTest(hypothesis) == true) {
+      // The scientific method (Popper)
       result = observer.test(observer.currentKnowledge, hypothesis);
-      // result is &quot;refuted&quot; or &quot;notRefuted&quot; (Popper)
+      // result is &quot;refuted&quot; or &quot;notRefuted&quot;
    }
    else {
       result = &quot;notTestable&quot;; // neither &quot;refuted&quot; nor &quot;notRefuted&quot;.
@@ -230,7 +230,7 @@ scientificMethod(observer, hypothesis)
    return result;
 }</pre>
         <div>
-            <span class=code>observer.canTest(hypothesis)</span> returns <span class=code>true</span> if the observer has provided a test for the hypothesis. Otherwise it returns <span class=code>false</span>. In physics, this test must always be empirical. In other domains it could simply be a proof that the hypothesis contains unresolved problems or contradictions.</div>
+            <span class=code>observer.canTest(hypothesis)</span> returns <span class=code>true</span> if the observer has provided a test for the hypothesis. Otherwise it returns <span class=code>false</span>. In physics, this test must always be empirical. In other domains it could simply be a test for unresolved problems or contradictions.</div>
         <div>
             Hypotheses about the physical world that include infinite values are intrinsically untestable since no finite, empirical experiments can be created to test them. This means that any infinite value or singularity, such as the one that currently appears at the beginning of the Big Bang, 
             must be ignored. It has the same status as &quot;There are angels&quot;.</div>
@@ -240,7 +240,7 @@ scientificMethod(observer, hypothesis)
             A hypothesis such as "There are angels" is <span class=code>&quot;notTestable&quot;</span> until the test can be formulated. After that, the hypothesis can be either <span class=code>&quot;refuted&quot;</span> or <span class=code>&quot;notRefuted&quot;</span> .
         </div>
     </section>
-    <hr class="internal" />
+    <hr class="hrSection" />
     <section id="theBeginningOfClockTime">
         <h2>The limits of clock time</h2>
         <div>
@@ -263,7 +263,7 @@ scientificMethod(observer, hypothesis)
             So physical (clock) time is finite, and its beginning depends on where/when a test can be made as spacetime dissolves in quantum uncertainty.
         </div>
     </section>    
-    <hr class="internal" />
+    <hr class="hrSection" />
     <section id="illegalHypotheses">
         <h2>Reconciling relativity and quantum mechanics</h2>
         We can never, even in principle, observe events or objects: 
@@ -297,7 +297,7 @@ scientificMethod(observer, hypothesis)
                 </ol>
         </div>
     </section>
-        <hr class="internal" />
+        <hr class="hrSection" />
     <section id="theGeneralLimitsOfObservation">
         <h2>The limits of observation</h2>
         <div>
@@ -326,19 +326,33 @@ scientificMethod(observer, hypothesis)
         </div>
         </div>
     </section>
-    <hr class="hrSection" />
-    <section id="footnotes">
+    <hr class="hrTitle" />
+    <section id="footnotes" class="footnotes">
         <h2>Footnotes</h2>
-        <div class="small">
+        <div>
             <div id="fAnalyticIdealism">
                 <strong>Analytic Idealism</strong> is the philosophy described in Bernardo Kastrup&#39;s <a target="_blank" href="https://www.essentiafoundation.org/analytic-idealism-course/">Analytic Idealism Course</a>.
                 <div>
-                    I agree completely with Kastrup that there is an <em>Interface of Perception</em>, and that the scientific method should also apply to philosophy.<br />
-                    Kastrup calls the <em>Interface of Perception</em> a "dashboard", Donald Hoffman calls it a "desktop". I have chosen to use Kastrup's term.<br />
-                    I am, however, wary of using of words (like &quot;mind&quot;) to describe <em>the domain beyond</em> the dashboard. I think it can only be investigated using the revised scientific method described in this essay. Progress has to be made using well defined empirical or logical tests &mdash; even in philosophy.
+                    I agree completely with Kastrup that there is an <em>Interface of Perception</em> and that philosophical progress can be made using well defined empirical or logical tests.<br />
+                    (Kastrup calls the <em>Interface of Perception</em> a "dashboard", Donald Hoffman calls it a "desktop". I use Kastrup's term.)
+                    </div>
+                <div>
+                    The philosophical method described in this essay 
+                    is a formal description of the methodology I think Kastrup intends. Formalizing it makes it easier to describe certain situations.<br />
+                    For example: For me, Kastrup&#39;s &quot;universal mind&quot; hypothesis currently has the status <span class=code>&quot;notTestable&quot;</span>, but I don't rule out the possibility that it will someday become <span class=code>&quot;notRefuted&quot;</span> when the words he is using are better understood.
                 </div>
             </div>
-            <hr class="internalShort" />
+            <hr class="appendixInternal" />
+            <div id="fTypesOfTime">
+                <strong>Two types of time (clock time and perceived time)</strong>
+                <div>
+                    Clock time (used by physicists) is reversible but perceived (=observed) time flows in one direction. See <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>.
+                    <div>
+                        Physicist&#39;s spacetime is a mathematical model of observed phenomena. Its components are, I think, intrinsically reversible because the measuring rods and clocks used to develop it were/are internally symmetrical: It makes no difference to Einstein's original argument if his measuring rods or clocks are reversed. In the case of clock time: its impossible to tell whether a film of a swinging pendulum is running forwards or backwards.
+                    </div>
+                </div>
+            </div>
+            <hr class="appendixInternal" />
             <div id="fObservers">
                 <strong>An observer is an ordinary human being</strong>
                 <div>having:
@@ -351,7 +365,7 @@ scientificMethod(observer, hypothesis)
                         stored entirely in the observer&#39;s physical brain, but some memories could also be stored "beyond the dashboard" of perception &mdash; the computer analogy would be "in the cloud".</li>
                 </ol></div>
             </div>
-            <hr class="internalShort" />
+            <hr class="appendixInternal" />
             <div id="fBlindSpots">
                 <strong>Each observer is part of the universe being observed</strong>
                 <div>
@@ -360,7 +374,7 @@ scientificMethod(observer, hypothesis)
                     (Bernardo Kastrup points out, in a memorable phrase, that brains would <em>dissolve into an entropic soup</em> if they tried to make a complete representation of the external Universe.)                    
                 </div>
             </div>
-            <hr class="internalShort" />
+            <hr class="appendixInternal" />
             <div id="fConsciousObservations">
                 <strong>Observations can only be made when the observer is conscious</strong>:
                 <div>
@@ -368,24 +382,14 @@ scientificMethod(observer, hypothesis)
                 </div>
 
             </div>
-            <hr class="internalShort" />
+            <hr class="appendixInternal" />
             <div id="fObservationsHereAndNow">
                 <strong>Observations are made in the observer's <em>here</em> and <em>now</em></strong>:
                 <div>
                     Observations cannot be made in the past or future, but they can be <em>recorded</em> or committed to <em>memory</em> so that the <em>recordings</em> or <em>memory</em> can be observed in a <em>now</em> at a later date.
                 </div>
             </div>
-            <hr class="internalShort" />
-            <div id="fTypesOfTime">
-                <strong>Perceived time and Clock time are distinct types</strong>
-                <div>
-                    Perceived (=observed) time flows in one direction, while clock time (used by physicists) is reversible. See <a target="_blank" href="https://james-ingram-act-two.de/writings/Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a>.
-                    <div>
-                        Physicist&#39;s spacetime is a mathematical model of observed phenomena whose components are intrinsically reversible. I think this is because the measuring rods and clocks used to develop it are internally symmetrical: It makes no difference to Einstein's original argument if his measuring rods or clocks are reversed. In the case of clock time: its impossible to tell whether a film of a swinging pendulum is running forwards or backwards.
-                    </div>
-                </div>
-            </div>
-            <hr class="internalShort" />
+            <hr class="appendixInternal" />
             <div id="fInfiniteQuantities">
                 <strong>Infinite quantities cannot be observed</strong>
                 <div>
@@ -395,9 +399,8 @@ scientificMethod(observer, hypothesis)
             </div>
         </div>
     </section>
-    <hr class="hrTitle" style="margin-top: 20px; margin-bottom: 10px;" />
     <section class="signature">        
-        ji www 5th June 2026
+        ji www 6th June 2026
     </section>
 </body>
 </html>

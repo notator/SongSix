@@ -71,4 +71,8 @@
     <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
     <File Path="TheOriginOfTime/TheOriginOfTime.html" />
   </Folder>
+  <Folder Name="/Solution Items/ThePhilosophicMethod/">
+    <File Path="ThePhilosophicMethod/ThePhilosophicMethod.htm" />
+    <File Path="ThePhilosophicMethod/ThePhilosophicMethod.html" />
+  </Folder>
 </Solution>
