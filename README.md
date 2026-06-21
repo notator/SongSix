@@ -17,8 +17,15 @@ New texts should be created in their own folders and branches, and merged into t
 
 ### updating the public website
 
-After uploading a new text to the public website:
-- Add a link to the main contents page.
-- Add a link to the online catalog at https://james-ingram-act-two.de/writings/writings.html
+The Afterwords have undergone a major overhaul, that means that the whole Afterwords folder should be replaced.
+Also replace the following files in Act Two that have been updated but not uploaded:
+1. The old Writings catalogue. (updated)
+1. Site Log (TODO)
+2. contents (updated, but check SiteLog date)
+3. CV (updated, but check date in last entry)
+4. impressum/images (updated)
+
+
+
 - Add an entry to the SiteLog for the new text, with a link to the online text and a brief description.
 - Add an entry to my Curriculum Vitae
