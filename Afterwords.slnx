@@ -4,8 +4,6 @@
     <File Path="evolvingIdeas.html" />
     <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
     <File Path="README.md" />
-    <File Path="songSixTemple.htm" />
-    <File Path="songSixTemple.html" />
   </Folder>
   <Folder Name="/Solution Items/AHistoryOfTheTwoCultures/">
     <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
@@ -43,6 +41,12 @@
   <Folder Name="/Solution Items/SongSixLeftMargin/images/">
     <File Path="SongSixLeftMargin/images/Sunburst100x100.png" />
     <File Path="SongSixLeftMargin/images/Temple100x100.png" />
+  </Folder>
+  <Folder Name="/Solution Items/SongSixTemple/">
+    <File Path="SongSixTemple/ApolloSunburstWithCredit.png" />
+    <File Path="SongSixTemple/ApolloTempleAtStourheadWithCredit.png" />
+    <File Path="SongSixTemple/songSixTemple.htm" />
+    <File Path="SongSixTemple/songSixTemple.html" />
   </Folder>
   <Folder Name="/Solution Items/TheArrowOfTime/">
     <File Path="TheArrowOfTime/TheArrowOfTime.htm" />
