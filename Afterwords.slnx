@@ -2,21 +2,11 @@
   <Folder Name="/Solution Items/">
     <File Path="evolvingIdeas.htm" />
     <File Path="evolvingIdeas.html" />
-    <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
     <File Path="README.md" />
   </Folder>
-  <Folder Name="/Solution Items/AHistoryOfTheTwoCultures/">
-    <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
-    <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.html" />
-  </Folder>
-  <Folder Name="/Solution Items/AHistoryOfTheTwoCultures/researches/">
-    <File Path="AHistoryOfTheTwoCultures/researches/ChatGPTHistoryChat.md" />
-    <File Path="AHistoryOfTheTwoCultures/researches/ChatGPTMarkdownExportReadme.md" />
-    <File Path="AHistoryOfTheTwoCultures/researches/CollingwoodBiography.htm" />
-    <File Path="AHistoryOfTheTwoCultures/researches/FirstThoughts.md" />
-    <File Path="AHistoryOfTheTwoCultures/researches/ForHansFuchs.html" />
-    <File Path="AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
-    <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
+  <Folder Name="/Solution Items/AboutEvolvingIdeas/">
+    <File Path="AboutEvolvingIdeas/AboutEvolvingIdeas.htm" />
+    <File Path="AboutEvolvingIdeas/aboutEvolvingIdeas.html" />
   </Folder>
   <Folder Name="/Solution Items/HawkinsTse/">
     <File Path="HawkinsTse/HawkinsTse.htm" />
@@ -30,10 +20,6 @@
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html" />
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
-  </Folder>
-  <Folder Name="/Solution Items/MeyerTheologyRefutation/">
-    <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.htm" />
-    <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.html" />
   </Folder>
   <Folder Name="/Solution Items/SongSixLeftMargin/">
     <File Path="SongSixLeftMargin/songSixLeftMenu.htm" />
@@ -77,12 +63,32 @@
     <File Path="TheArrowOfTime/resources/pumpCycle.png" />
     <File Path="TheArrowOfTime/resources/sodiumGate.png" />
   </Folder>
-  <Folder Name="/Solution Items/TheOriginOfTime (old)/">
-    <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
-    <File Path="TheOriginOfTime/TheOriginOfTime.html" />
-  </Folder>
   <Folder Name="/Solution Items/ThePhilosophicMethod/">
     <File Path="ThePhilosophicMethod/ThePhilosophicMethod.htm" />
     <File Path="ThePhilosophicMethod/ThePhilosophicMethod.html" />
+  </Folder>
+  <Folder Name="/Solution Items/_Drafts/">
+    <File Path="_Drafts/README.md" />
+  </Folder>
+  <Folder Name="/Solution Items/_Drafts/AHistroyOfTheTwoCultures/">
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.html" />
+  </Folder>
+  <Folder Name="/Solution Items/_Drafts/AHistroyOfTheTwoCultures/researches/">
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ChatGPTHistoryChat.md" />
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ChatGPTMarkdownExportReadme.md" />
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/CollingwoodBiography.htm" />
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/FirstThoughts.md" />
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ForHansFuchs.html" />
+    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
+  </Folder>
+  <Folder Name="/Solution Items/_Drafts/MeyerTheologyRefutation/">
+    <File Path="_Drafts/MeyerTheologyRefutation/MeyerTheologyRefutation.htm" />
+    <File Path="_Drafts/MeyerTheologyRefutation/MeyerTheologyRefutation.html" />
+  </Folder>
+  <Folder Name="/Solution Items/_old/" />
+  <Folder Name="/Solution Items/_old/TheOriginOfTime/">
+    <File Path="_old/TheOriginOfTime/TheOriginOfTime.htm" />
+    <File Path="_old/TheOriginOfTime/TheOriginOfTime.html" />
   </Folder>
 </Solution>
