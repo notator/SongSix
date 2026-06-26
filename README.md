@@ -17,15 +17,14 @@ New texts should be created in their own folders and branches, and merged into t
 
 ### updating the public website
 
-The SongSix have undergone a major overhaul, that means that the whole SongSix folder should be replaced.
-Also replace the following files in Act Two that have been updated but not uploaded:
-1. The old Writings catalogue. (updated)
-1. Site Log (TODO)
-2. contents (updated, but check SiteLog date)
-3. CV (updated, but check date in last entry)
-4. impressum/images (updated)
+Act Two has undergone a major overhaul which has not yet been uploaded.
+First complete the Patreon site (Welcome, part 2) then upload the changes to Act Two: 
+The local "Afterwords - old" and online "Afterwords" folders should be completely deleted
+The local SongSix folder should be uploaded.
+The following files in Act Two must also be updated:
+1. contents (check SiteLog date)
+2. Curriculum Vitae
+3. impressum/images (+temple and sunburst)
+4. The Writings catalogue.
+5. Site Log (A draft has been completed. Publish after completing Patreon and uploading everything.)
 
-
-
-- Add an entry to the SiteLog for the new text, with a link to the online text and a brief description.
-- Add an entry to my Curriculum Vitae
