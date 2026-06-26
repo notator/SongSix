@@ -15,18 +15,52 @@
   <Folder Name="/Solution Items/Contributors/images/">
     <File Path="Contributors/images/ModeratorID88x88.png" />
   </Folder>
-  <Folder Name="/Solution Items/HawkinsTse/">
-    <File Path="HawkinsTse/HawkinsTse.htm" />
-    <File Path="HawkinsTse/HawkinsTse.html" />
-    <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
+  <Folder Name="/Solution Items/EvolvingIdeas/" />
+  <Folder Name="/Solution Items/EvolvingIdeas/HawkinsTse/">
+    <File Path="EvolvingIdeas/HawkinsTse/HawkinsTse.htm" />
+    <File Path="EvolvingIdeas/HawkinsTse/HawkinsTse.html" />
+    <File Path="EvolvingIdeas/HawkinsTse/Reply1ToRhizoome.htm" />
   </Folder>
-  <Folder Name="/Solution Items/InDefenceOfLiteracy/">
-    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
-    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.htm" />
-    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.html" />
-    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html" />
-    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
-    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
+  <Folder Name="/Solution Items/EvolvingIdeas/InDefenceOfLiteracy/">
+    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
+    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.htm" />
+    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.html" />
+    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html" />
+    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
+    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/">
+    <File Path="EvolvingIdeas/TheArrowOfTime/TheArrowOfTime.htm" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/TheArrowOfTime.html" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/" />
+  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/">
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/Chat3.1.2026.md" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/">
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat1.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat2.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat3.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat4.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat5.md" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/">
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt1.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt2.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt3.md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt4_(irreversibility).md" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt5_(irreversibility).md" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/resources/">
+    <File Path="EvolvingIdeas/TheArrowOfTime/resources/actionPotential.png" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/resources/neuron_small.png" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/resources/potassiumGate.png" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/resources/pumpCycle.png" />
+    <File Path="EvolvingIdeas/TheArrowOfTime/resources/sodiumGate.png" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/ThePhilosophicMethod/">
+    <File Path="EvolvingIdeas/ThePhilosophicMethod/ThePhilosophicMethod.htm" />
+    <File Path="EvolvingIdeas/ThePhilosophicMethod/ThePhilosophicMethod.html" />
   </Folder>
   <Folder Name="/Solution Items/SongSixLeftMargin/">
     <File Path="SongSixLeftMargin/songSixLeftMenu.htm" />
@@ -40,39 +74,6 @@
     <File Path="SongSixTemple/ApolloTempleAtStourheadWithCredit.png" />
     <File Path="SongSixTemple/songSixTemple.htm" />
     <File Path="SongSixTemple/songSixTemple.html" />
-  </Folder>
-  <Folder Name="/Solution Items/TheArrowOfTime/">
-    <File Path="TheArrowOfTime/TheArrowOfTime.htm" />
-    <File Path="TheArrowOfTime/TheArrowOfTime.html" />
-  </Folder>
-  <Folder Name="/Solution Items/TheArrowOfTime/CopilotChats/" />
-  <Folder Name="/Solution Items/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/">
-    <File Path="TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/Chat3.1.2026.md" />
-  </Folder>
-  <Folder Name="/Solution Items/TheArrowOfTime/CopilotChats/CollectingIdeas/">
-    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat1.md" />
-    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat2.md" />
-    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat3.md" />
-    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat4.md" />
-    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat5.md" />
-  </Folder>
-  <Folder Name="/Solution Items/TheArrowOfTime/CopilotChats/_WolframReversibility/">
-    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt1.md" />
-    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt2.md" />
-    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt3.md" />
-    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt4_(irreversibility).md" />
-    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt5_(irreversibility).md" />
-  </Folder>
-  <Folder Name="/Solution Items/TheArrowOfTime/resources/">
-    <File Path="TheArrowOfTime/resources/actionPotential.png" />
-    <File Path="TheArrowOfTime/resources/neuron_small.png" />
-    <File Path="TheArrowOfTime/resources/potassiumGate.png" />
-    <File Path="TheArrowOfTime/resources/pumpCycle.png" />
-    <File Path="TheArrowOfTime/resources/sodiumGate.png" />
-  </Folder>
-  <Folder Name="/Solution Items/ThePhilosophicMethod/">
-    <File Path="ThePhilosophicMethod/ThePhilosophicMethod.htm" />
-    <File Path="ThePhilosophicMethod/ThePhilosophicMethod.html" />
   </Folder>
   <Folder Name="/Solution Items/_Drafts/">
     <File Path="_Drafts/README.md" />
