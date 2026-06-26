@@ -8,6 +8,13 @@
     <File Path="AboutEvolvingIdeas/AboutEvolvingIdeas.htm" />
     <File Path="AboutEvolvingIdeas/aboutEvolvingIdeas.html" />
   </Folder>
+  <Folder Name="/Solution Items/Contributors/">
+    <File Path="Contributors/Contributors.htm" />
+    <File Path="Contributors/Contributors.html" />
+  </Folder>
+  <Folder Name="/Solution Items/Contributors/images/">
+    <File Path="Contributors/images/ModeratorID88x88.png" />
+  </Folder>
   <Folder Name="/Solution Items/HawkinsTse/">
     <File Path="HawkinsTse/HawkinsTse.htm" />
     <File Path="HawkinsTse/HawkinsTse.html" />

@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title></title>
+    <base target="_top" />
+    <link href="../../styleSheet.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+    <script src="../javascript.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        trap();
+    </script>
+
+    <style type="text/css">
+        body {
+            color: #444444; /* dark grey text */
+            background-color: #FFFFFF;
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 30px 30px 2000px 30px; /* margin-bottom allows scrolling to lowest internal link */
+            width: 600px;
+        }
+
+        h1 {
+            font-family: Lucida Sans Unicode, Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 14px;
+            margin-bottom: 14px
+        }
+
+        h2 {
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 10px
+        }
+
+            h2.large {
+                font-size: 13px;
+            }
+
+        h3 {
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 10px
+        }
+
+        h4 {
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 11px;
+            font-weight: bold;
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 10px
+        }
+
+        div {
+            margin: 3px 0 6px 0;
+            padding: 0;
+        }
+
+            div.note /* div: a note in a blue frame */ {
+                font-size: 8.25pt;
+                line-height: 150%;
+                padding: 10px 20px 10px 20px;
+                border: 1px solid #1010C6
+            }
+
+            div.appendixNote /* div: a note in a green frame */ {
+                font-size: 8.25pt;
+                line-height: 150%;
+                padding: 10px 20px 10px 20px;
+                border: 1px solid #10C610; /*#0A0;*/
+                margin: 0;
+            }
+
+            div.indent1 {
+                padding: 0 0 0 15pt;
+                font-size: 8.25pt;
+                line-height: 150%;
+                margin: 0;
+            }
+
+            div.description {
+                padding: 0 0 0 15pt;
+                font-size: 8.25pt;
+                line-height: 150%;
+                margin: 0 0 5px 0;
+            }
+
+            div.appendix {
+                margin: 0;
+                border: 5px solid #AEA;
+                padding: 0 20px 0 20px;
+            }
+
+        .small {
+            font-size: 8.25pt;
+            line-height: 150%;
+        }
+
+        div.timeDiv {
+            margin: 14px 0 6px 0;
+            padding: 0;
+        }
+
+        .todo {
+            background-color: #FFCCCC;
+        }
+
+        div.todoRemark {
+            color: red;
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .smallLineHeight /* div, table */ {
+            font-size: 8.25pt;
+            line-height: 150%;
+            margin: 1.25px 0 2px 0;
+            padding: 0;
+        }
+
+        hr.hrTitle {
+            border-style: none;
+            height: 2px;
+            background-color: #1010C6;
+            margin: 6px 0 6px 0;
+        }
+
+        hr.section {
+            border-style: none;
+            height: 1px;
+            background-color: #1010C6;
+            margin: 16px 0 12px 0;
+        }
+
+        hr.internal {
+            border-style: none;
+            height: 1px;
+            background-color: #1010C6;
+            margin: 10px 0 8px 0;
+        }
+
+        hr.appendixInternal {
+            border-style: none;
+            height: 1px;
+            background-color: #0A0;
+            margin: 10px 0 8px 0;
+        }
+
+        hr.internalShort {
+            border-style: none;
+            height: 1px;
+            background-color: #1010C6;
+            margin: 10px 0 8px 0;
+            padding: 0 200px 0 200px;
+        }
+
+        hr.footnote {
+            border-style: none;
+            height: 1px;
+            width: 150px;
+            text-align: left;
+            background-color: #1010C6;
+            margin: 10px 0 4px 0;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        div.myWork {
+            padding-left: 8px;
+            border: 1px solid blue;
+        }
+
+        div.commentary {
+            padding-left: 8px;
+            border: 1px solid #10C610;
+        }
+
+        div.collaboration {
+            padding-left: 8px;
+            border: 1px solid red;
+        }
+
+        div.liveInterview {
+            padding-left: 8px;
+            border: 1px solid #F0F;
+        }
+
+        span.fatColon {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        span.idName {
+            font-size: 8.25pt;
+            line-height: 150%;
+        }
+
+        table {
+            padding: 0;
+            margin: 0;
+            border-collapse: collapse;
+        }
+
+        tr {
+            border: 1px solid black;
+            margin: 2px 0 2px 0;
+        }
+
+        td.photo {
+            text-align: center;
+            vertical-align: top;
+            padding: 4px 4px 4px 4px;
+            /*border-top:1px solid black;
+            border-bottom:1px solid black;
+            border-left:1px solid black;*/
+        }
+
+        td.info {
+            vertical-align: top;
+            padding: 4px 4px 4px 4px;
+            font-size: 9pt;
+            line-height: 150%;
+        }
+
+        span.idName {
+            font-size: 8.25pt;
+            line-height: 140%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Evolving Ideas<span class="fatColon">:</span> Contributors</h1>
+    <hr class="hrTitle" style="margin-bottom: 20px" />
+    <section id="moderator">
+        <table id="moderatortable">
+            <colgroup>
+                <col width="92px" />
+                <col width="*" />
+            </colgroup>
+            <tr id="ingram">
+                <td class="photo">
+                    <img alt="Moderator ID image" src="images/ModeratorID88x88.png" /><br />
+                    <span class="idName">James Ingram<br />
+                        (moderator)<br />
+                        <span style="font-size:6.5pt"><a href="https://james-ingram-act-two.de/impressum/curriculumVitae.html">Curriculum Vitae</a></span>
+                    </span>
+                </td>
+                <td class="info">
+                    I've always been interested in the philosophy of time.<br />
+                    Read lots of philosophy, especially in my 20s and 30s (Russel, Popper etc.). Discovered quite late that I've always been an idealist, on encountering Hoffman (2016) and Kastrup (2022).<br />
+                    I think contemporary philosophy needs an interdisciplinary component.<br />
+                    It needs input from both professional philosophers (historians of philosophy) and those with direct experience of the world in other areas.<br />
+                    My own experience leads me to make a sharp distinction between perceived time (as in music) and clock time (as in physics).
+                    <div class="note" style="margin-top:10px">
+                        I Became Karlheinz Stockhausen's copyist (1974-2000) because I wanted to grapple with the 20th century music notation crisis at close quarters.<br />
+                        Ended up in a practical job, rather than in academia, because I've always been sceptical of the institutional structures that have grown up around the Arts and Sciences.<br />
+                        Began programming in 1982. After 2000, I have been programming open source applications in C# and Javascript, and maintaining a <a href="https://james-ingram-act-two.de/index.html">website</a>.<br />
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <hr class="section" />
+    <section id="subscribers">
+        <h2>Contributors</h2>
+        
+        <div class="note">
+            Contributors must be subscribed to <a href="patreon">this project's (free) Patreon</a>. Contributions are made in a subsidiary forum (mailing list). To join or leave, join the Patreon, then follow the instructions on the Welcome page.<br />
+            The information displayed here on this page is supplied by the contributors themselves.
+            <ul>
+                <li>The ID icon will be copied from Patreon. (Please tell me if the icon changes.)</li>
+                <li>The general introduction is obligatory.</li>
+                <li>The comment (blue box) and link to a more extensive <em>Curriculum Vitae</em> are optional. </li>
+            </ul>
+        </div>
+        (The list of contributors is currently empty.) <!--
+        <div class="note">
+            This list will be maintained in alphabetical order (using lowercase alphabetic characters<br />
+            in [first name] concatenated with [last name] -- i.e. Joe Blogs is treated as joeblogs).<br />
+            Each entry will consist of the subscriber's patreon ID icon (88x88px) and their own self-description.<br />
+            Note that all suscribers must have a Patreon account, so I can get their icon using a screen shot.
+        </div>        
+        <table id="subscribersTable">
+            <colgroup>
+                <col width="100px" />
+                <col width="*" />
+            </colgroup>
+            <tr id="JoeBlogs">
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        -->
+    </section>
+    <hr class="hrTitle" style="margin-top: 10px; margin-bottom: 10px;" />
+    <section class="signature">
+        ji June 2026
+    </section>
+</body>
+</html>
