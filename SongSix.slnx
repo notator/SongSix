@@ -16,10 +16,15 @@
     <File Path="Contributors/images/ModeratorID88x88.png" />
   </Folder>
   <Folder Name="/Solution Items/EvolvingIdeas/" />
-  <Folder Name="/Solution Items/EvolvingIdeas/HawkinsTse/">
-    <File Path="EvolvingIdeas/HawkinsTse/HawkinsTse.htm" />
-    <File Path="EvolvingIdeas/HawkinsTse/HawkinsTse.html" />
-    <File Path="EvolvingIdeas/HawkinsTse/Reply1ToRhizoome.htm" />
+  <Folder Name="/Solution Items/EvolvingIdeas/commentaries/" />
+  <Folder Name="/Solution Items/EvolvingIdeas/commentaries/HawkinsTse/">
+    <File Path="EvolvingIdeas/commentaries/HawkinsTse/HawkinsTse.htm" />
+    <File Path="EvolvingIdeas/commentaries/HawkinsTse/HawkinsTse.html" />
+    <File Path="EvolvingIdeas/commentaries/HawkinsTse/Reply1ToRhizoome.htm" />
+  </Folder>
+  <Folder Name="/Solution Items/EvolvingIdeas/ExternalLinks/">
+    <File Path="EvolvingIdeas/ExternalLinks/ExternalLinks.htm" />
+    <File Path="EvolvingIdeas/ExternalLinks/ExternalLinks.html" />
   </Folder>
   <Folder Name="/Solution Items/EvolvingIdeas/InDefenceOfLiteracy/">
     <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
