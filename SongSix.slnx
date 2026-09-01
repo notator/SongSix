@@ -14,6 +14,7 @@
   </Folder>
   <Folder Name="/Solution Items/Contributors/images/">
     <File Path="Contributors/images/ModeratorID88x88.png" />
+    <File Path="Contributors/images/RhizoomeID88x88.png" />
   </Folder>
   <Folder Name="/Solution Items/EvolvingIdeas/" />
   <Folder Name="/Solution Items/EvolvingIdeas/commentaries/" />
@@ -79,11 +80,11 @@
   <Folder Name="/Solution Items/_Drafts/">
     <File Path="_Drafts/README.md" />
   </Folder>
-  <Folder Name="/Solution Items/_Drafts/AHistroyOfTheTwoCultures/">
+  <Folder Name="/Solution Items/_Drafts/AHistoryOfTheTwoCultures/">
     <File Path="_Drafts/AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
     <File Path="_Drafts/AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.html" />
   </Folder>
-  <Folder Name="/Solution Items/_Drafts/AHistroyOfTheTwoCultures/researches/">
+  <Folder Name="/Solution Items/_Drafts/AHistoryOfTheTwoCultures/researches/">
     <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ChatGPTHistoryChat.md" />
     <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ChatGPTMarkdownExportReadme.md" />
     <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/CollingwoodBiography.htm" />
