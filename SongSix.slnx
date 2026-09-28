@@ -1,105 +1,186 @@
-<Solution>
-  <Folder Name="/Solution Items/">
-    <File Path="evolvingIdeas.htm" />
-    <File Path="evolvingIdeas.html" />
-    <File Path="README.md" />
-  </Folder>
-  <Folder Name="/Solution Items/AboutEvolvingIdeas/">
-    <File Path="AboutEvolvingIdeas/AboutEvolvingIdeas.htm" />
-    <File Path="AboutEvolvingIdeas/aboutEvolvingIdeas.html" />
-  </Folder>
-  <Folder Name="/Solution Items/Contributors/">
-    <File Path="Contributors/Contributors.htm" />
-    <File Path="Contributors/Contributors.html" />
-    <File Path="Contributors/Contributors.Rhizoome.html" />
-  </Folder>
-  <Folder Name="/Solution Items/Contributors/images/">
-    <File Path="Contributors/images/ModeratorID88x88.png" />
-    <File Path="Contributors/images/RhizoomeID88x78.png" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/" />
-  <Folder Name="/Solution Items/EvolvingIdeas/commentaries/" />
-  <Folder Name="/Solution Items/EvolvingIdeas/commentaries/HawkinsTse/">
-    <File Path="EvolvingIdeas/commentaries/HawkinsTse/HawkinsTse.htm" />
-    <File Path="EvolvingIdeas/commentaries/HawkinsTse/HawkinsTse.html" />
-    <File Path="EvolvingIdeas/commentaries/HawkinsTse/Reply1ToRhizoome.htm" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/InDefenceOfLiteracy/">
-    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
-    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.htm" />
-    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.html" />
-    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html" />
-    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
-    <File Path="EvolvingIdeas/InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/">
-    <File Path="EvolvingIdeas/TheArrowOfTime/TheArrowOfTime.htm" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/TheArrowOfTime.html" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/" />
-  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/">
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/Chat3.1.2026.md" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/">
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat1.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat2.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat3.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat4.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/CollectingIdeas/Chat5.md" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/">
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt1.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt2.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt3.md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt4_(irreversibility).md" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt5_(irreversibility).md" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/TheArrowOfTime/resources/">
-    <File Path="EvolvingIdeas/TheArrowOfTime/resources/actionPotential.png" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/resources/neuron_small.png" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/resources/potassiumGate.png" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/resources/pumpCycle.png" />
-    <File Path="EvolvingIdeas/TheArrowOfTime/resources/sodiumGate.png" />
-  </Folder>
-  <Folder Name="/Solution Items/EvolvingIdeas/ThePhilosophicMethod/">
-    <File Path="EvolvingIdeas/ThePhilosophicMethod/ThePhilosophicMethod.htm" />
-    <File Path="EvolvingIdeas/ThePhilosophicMethod/ThePhilosophicMethod.html" />
-  </Folder>
-  <Folder Name="/Solution Items/SongSixLeftMargin/">
-    <File Path="SongSixLeftMargin/songSixLeftMenu.htm" />
-  </Folder>
-  <Folder Name="/Solution Items/SongSixLeftMargin/images/">
-    <File Path="SongSixLeftMargin/images/Sunburst100x100.png" />
-    <File Path="SongSixLeftMargin/images/Temple100x100.png" />
-  </Folder>
-  <Folder Name="/Solution Items/SongSixTemple/">
-    <File Path="SongSixTemple/ApolloSunburstWithCredit.png" />
-    <File Path="SongSixTemple/ApolloTempleAtStourheadWithCredit.png" />
-    <File Path="SongSixTemple/songSixTemple.htm" />
-    <File Path="SongSixTemple/songSixTemple.html" />
-  </Folder>
-  <Folder Name="/Solution Items/_Drafts/">
-    <File Path="_Drafts/README.md" />
-  </Folder>
-  <Folder Name="/Solution Items/_Drafts/AHistoryOfTheTwoCultures/">
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.html" />
-  </Folder>
-  <Folder Name="/Solution Items/_Drafts/AHistoryOfTheTwoCultures/researches/">
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ChatGPTHistoryChat.md" />
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ChatGPTMarkdownExportReadme.md" />
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/CollingwoodBiography.htm" />
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/FirstThoughts.md" />
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/ForHansFuchs.html" />
-    <File Path="_Drafts/AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
-  </Folder>
-  <Folder Name="/Solution Items/_Drafts/MeyerTheologyRefutation/">
-    <File Path="_Drafts/MeyerTheologyRefutation/MeyerTheologyRefutation.htm" />
-    <File Path="_Drafts/MeyerTheologyRefutation/MeyerTheologyRefutation.html" />
-  </Folder>
-  <Folder Name="/Solution Items/_old/" />
-  <Folder Name="/Solution Items/_old/TheOriginOfTime/">
-    <File Path="_old/TheOriginOfTime/TheOriginOfTime.htm" />
-    <File Path="_old/TheOriginOfTime/TheOriginOfTime.html" />
-  </Folder>
-</Solution>
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12217.157 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
+	ProjectSection(SolutionItems) = preProject
+		evolvingIdeas.htm = evolvingIdeas.htm
+		evolvingIdeas.html = evolvingIdeas.html
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AboutEvolvingIdeas", "AboutEvolvingIdeas", "{9BA9336D-D44E-9CEA-5C63-3D7816A0E65B}"
+	ProjectSection(SolutionItems) = preProject
+		AboutEvolvingIdeas\AboutEvolvingIdeas.htm = AboutEvolvingIdeas\AboutEvolvingIdeas.htm
+		AboutEvolvingIdeas\aboutEvolvingIdeas.html = AboutEvolvingIdeas\aboutEvolvingIdeas.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contributors", "Contributors", "{0D60EFCF-FB11-E59B-6D3B-775A50AA4AB9}"
+	ProjectSection(SolutionItems) = preProject
+		Contributors\Contributors.htm = Contributors\Contributors.htm
+		Contributors\Contributors.html = Contributors\Contributors.html
+		Contributors\Contributors.Rhizoome.html = Contributors\Contributors.Rhizoome.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{B2C74D0A-61F5-E1FD-BDAF-0D63D64E2CCA}"
+	ProjectSection(SolutionItems) = preProject
+		Contributors\images\ModeratorID88x88.png = Contributors\images\ModeratorID88x88.png
+		Contributors\images\RhizoomeID88x78.png = Contributors\images\RhizoomeID88x78.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EvolvingIdeas", "EvolvingIdeas", "{EE9050D2-6520-5C85-860B-C35171B52ACB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commentaries", "commentaries", "{D676665E-2ED1-F5BC-DB55-5C2003E11C88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HawkinsTse", "HawkinsTse", "{9B0EDAB8-8CDC-5749-2DD6-F2630C5C7CBB}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\commentaries\HawkinsTse\HawkinsTse.htm = EvolvingIdeas\commentaries\HawkinsTse\HawkinsTse.htm
+		EvolvingIdeas\commentaries\HawkinsTse\HawkinsTse.html = EvolvingIdeas\commentaries\HawkinsTse\HawkinsTse.html
+		EvolvingIdeas\commentaries\HawkinsTse\Reply1ToRhizoome.htm = EvolvingIdeas\commentaries\HawkinsTse\Reply1ToRhizoome.htm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InDefenceOfLiteracy", "InDefenceOfLiteracy", "{A336444D-A46D-A717-8432-D78D7A3AD373}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.appendixCurrentBeliefs.html = EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.appendixCurrentBeliefs.html
+		EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.htm = EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.htm
+		EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.html = EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.html
+		EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html = EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html
+		EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.notationCrisis.html = EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.notationCrisis.html
+		EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.twoTypesOfTime.html = EvolvingIdeas\InDefenceOfLiteracy\InDefenceOfLiteracy.twoTypesOfTime.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheArrowOfTime", "TheArrowOfTime", "{5BE5436E-BAA2-BDC6-9708-3D9A573B317B}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\TheArrowOfTime\TheArrowOfTime.htm = EvolvingIdeas\TheArrowOfTime\TheArrowOfTime.htm
+		EvolvingIdeas\TheArrowOfTime\NotesAboutEntropy.html = EvolvingIdeas\TheArrowOfTime\NotesAboutEntropy.html
+		EvolvingIdeas\TheArrowOfTime\TheArrowOfTime.html = EvolvingIdeas\TheArrowOfTime\TheArrowOfTime.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CopilotChats", "CopilotChats", "{674A2199-F6BE-B23E-8C84-5B823ECD494C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AreSpaceAndTimeQualia", "AreSpaceAndTimeQualia", "{0C27B3E2-4A19-ED92-ED5F-9DA8B61B9C5F}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\AreSpaceAndTimeQualia\Chat3.1.2026.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\AreSpaceAndTimeQualia\Chat3.1.2026.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CollectingIdeas", "CollectingIdeas", "{5C8632F8-28E9-B8A0-7C16-10E25B894445}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat1.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat1.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat2.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat2.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat3.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat3.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat4.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat4.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat5.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\CollectingIdeas\Chat5.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_WolframReversibility", "_WolframReversibility", "{61B97A96-BD1F-9FA2-422E-B20ABAF9A8E3}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt1.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt1.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt2.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt2.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt3.md = EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt3.md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt4_(irreversibility).md = EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt4_(irreversibility).md
+		EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt5_(irreversibility).md = EvolvingIdeas\TheArrowOfTime\CopilotChats\_WolframReversibility\Prompt5_(irreversibility).md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{B262DF75-0B35-78DE-2638-89B9EA1FB031}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\TheArrowOfTime\resources\actionPotential.png = EvolvingIdeas\TheArrowOfTime\resources\actionPotential.png
+		EvolvingIdeas\TheArrowOfTime\resources\neuron_small.png = EvolvingIdeas\TheArrowOfTime\resources\neuron_small.png
+		EvolvingIdeas\TheArrowOfTime\resources\potassiumGate.png = EvolvingIdeas\TheArrowOfTime\resources\potassiumGate.png
+		EvolvingIdeas\TheArrowOfTime\resources\pumpCycle.png = EvolvingIdeas\TheArrowOfTime\resources\pumpCycle.png
+		EvolvingIdeas\TheArrowOfTime\resources\sodiumGate.png = EvolvingIdeas\TheArrowOfTime\resources\sodiumGate.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThePhilosophicMethod", "ThePhilosophicMethod", "{38C11D72-C790-46D1-CEAD-CA5E5A46D708}"
+	ProjectSection(SolutionItems) = preProject
+		EvolvingIdeas\ThePhilosophicMethod\ThePhilosophicMethod.htm = EvolvingIdeas\ThePhilosophicMethod\ThePhilosophicMethod.htm
+		EvolvingIdeas\ThePhilosophicMethod\ThePhilosophicMethod.html = EvolvingIdeas\ThePhilosophicMethod\ThePhilosophicMethod.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SongSixLeftMargin", "SongSixLeftMargin", "{7A4D0535-9FEC-5193-6E40-CA7EF98590EC}"
+	ProjectSection(SolutionItems) = preProject
+		SongSixLeftMargin\songSixLeftMenu.htm = SongSixLeftMargin\songSixLeftMenu.htm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{7FFB7258-459A-3B8B-90C7-B86226788E71}"
+	ProjectSection(SolutionItems) = preProject
+		SongSixLeftMargin\images\Sunburst100x100.png = SongSixLeftMargin\images\Sunburst100x100.png
+		SongSixLeftMargin\images\Temple100x100.png = SongSixLeftMargin\images\Temple100x100.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SongSixTemple", "SongSixTemple", "{1521298E-F930-97CD-D610-CEE16AB417C4}"
+	ProjectSection(SolutionItems) = preProject
+		SongSixTemple\ApolloSunburstWithCredit.png = SongSixTemple\ApolloSunburstWithCredit.png
+		SongSixTemple\ApolloTempleAtStourheadWithCredit.png = SongSixTemple\ApolloTempleAtStourheadWithCredit.png
+		SongSixTemple\songSixTemple.htm = SongSixTemple\songSixTemple.htm
+		SongSixTemple\songSixTemple.html = SongSixTemple\songSixTemple.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Drafts", "_Drafts", "{353F6971-897A-F787-42D8-71C7119640AF}"
+	ProjectSection(SolutionItems) = preProject
+		_Drafts\README.md = _Drafts\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AHistoryOfTheTwoCultures", "AHistoryOfTheTwoCultures", "{F9229EC1-7CF7-C9BD-C1AC-AD657ED66343}"
+	ProjectSection(SolutionItems) = preProject
+		_Drafts\AHistoryOfTheTwoCultures\AHistoryOfTheTwoCultures.htm = _Drafts\AHistoryOfTheTwoCultures\AHistoryOfTheTwoCultures.htm
+		_Drafts\AHistoryOfTheTwoCultures\AHistoryOfTheTwoCultures.html = _Drafts\AHistoryOfTheTwoCultures\AHistoryOfTheTwoCultures.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "researches", "researches", "{B8D783D5-EE14-A9AF-C5D8-076F964E5B3A}"
+	ProjectSection(SolutionItems) = preProject
+		_Drafts\AHistoryOfTheTwoCultures\researches\ChatGPTHistoryChat.md = _Drafts\AHistoryOfTheTwoCultures\researches\ChatGPTHistoryChat.md
+		_Drafts\AHistoryOfTheTwoCultures\researches\ChatGPTMarkdownExportReadme.md = _Drafts\AHistoryOfTheTwoCultures\researches\ChatGPTMarkdownExportReadme.md
+		_Drafts\AHistoryOfTheTwoCultures\researches\CollingwoodBiography.htm = _Drafts\AHistoryOfTheTwoCultures\researches\CollingwoodBiography.htm
+		_Drafts\AHistoryOfTheTwoCultures\researches\FirstThoughts.md = _Drafts\AHistoryOfTheTwoCultures\researches\FirstThoughts.md
+		_Drafts\AHistoryOfTheTwoCultures\researches\ForHansFuchs.html = _Drafts\AHistoryOfTheTwoCultures\researches\ForHansFuchs.html
+		_Drafts\AHistoryOfTheTwoCultures\researches\NotesOnHawkinsEtc.htm = _Drafts\AHistoryOfTheTwoCultures\researches\NotesOnHawkinsEtc.htm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MeyerTheologyRefutation", "MeyerTheologyRefutation", "{128B20BD-51E9-05E5-66F3-A9B058EC06DA}"
+	ProjectSection(SolutionItems) = preProject
+		_Drafts\MeyerTheologyRefutation\MeyerTheologyRefutation.htm = _Drafts\MeyerTheologyRefutation\MeyerTheologyRefutation.htm
+		_Drafts\MeyerTheologyRefutation\MeyerTheologyRefutation.html = _Drafts\MeyerTheologyRefutation\MeyerTheologyRefutation.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_old", "_old", "{0C20ED23-377B-893B-38EC-DFC030317AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheOriginOfTime", "TheOriginOfTime", "{74E3B424-9FE6-F77F-33E7-3D607002028C}"
+	ProjectSection(SolutionItems) = preProject
+		_old\TheOriginOfTime\TheOriginOfTime.htm = _old\TheOriginOfTime\TheOriginOfTime.htm
+		_old\TheOriginOfTime\TheOriginOfTime.html = _old\TheOriginOfTime\TheOriginOfTime.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA9336D-D44E-9CEA-5C63-3D7816A0E65B} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{0D60EFCF-FB11-E59B-6D3B-775A50AA4AB9} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{B2C74D0A-61F5-E1FD-BDAF-0D63D64E2CCA} = {0D60EFCF-FB11-E59B-6D3B-775A50AA4AB9}
+		{EE9050D2-6520-5C85-860B-C35171B52ACB} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{D676665E-2ED1-F5BC-DB55-5C2003E11C88} = {EE9050D2-6520-5C85-860B-C35171B52ACB}
+		{9B0EDAB8-8CDC-5749-2DD6-F2630C5C7CBB} = {D676665E-2ED1-F5BC-DB55-5C2003E11C88}
+		{A336444D-A46D-A717-8432-D78D7A3AD373} = {EE9050D2-6520-5C85-860B-C35171B52ACB}
+		{5BE5436E-BAA2-BDC6-9708-3D9A573B317B} = {EE9050D2-6520-5C85-860B-C35171B52ACB}
+		{674A2199-F6BE-B23E-8C84-5B823ECD494C} = {5BE5436E-BAA2-BDC6-9708-3D9A573B317B}
+		{0C27B3E2-4A19-ED92-ED5F-9DA8B61B9C5F} = {674A2199-F6BE-B23E-8C84-5B823ECD494C}
+		{5C8632F8-28E9-B8A0-7C16-10E25B894445} = {674A2199-F6BE-B23E-8C84-5B823ECD494C}
+		{61B97A96-BD1F-9FA2-422E-B20ABAF9A8E3} = {674A2199-F6BE-B23E-8C84-5B823ECD494C}
+		{B262DF75-0B35-78DE-2638-89B9EA1FB031} = {5BE5436E-BAA2-BDC6-9708-3D9A573B317B}
+		{38C11D72-C790-46D1-CEAD-CA5E5A46D708} = {EE9050D2-6520-5C85-860B-C35171B52ACB}
+		{7A4D0535-9FEC-5193-6E40-CA7EF98590EC} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{7FFB7258-459A-3B8B-90C7-B86226788E71} = {7A4D0535-9FEC-5193-6E40-CA7EF98590EC}
+		{1521298E-F930-97CD-D610-CEE16AB417C4} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{353F6971-897A-F787-42D8-71C7119640AF} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{F9229EC1-7CF7-C9BD-C1AC-AD657ED66343} = {353F6971-897A-F787-42D8-71C7119640AF}
+		{B8D783D5-EE14-A9AF-C5D8-076F964E5B3A} = {F9229EC1-7CF7-C9BD-C1AC-AD657ED66343}
+		{128B20BD-51E9-05E5-66F3-A9B058EC06DA} = {353F6971-897A-F787-42D8-71C7119640AF}
+		{0C20ED23-377B-893B-38EC-DFC030317AE6} = {089100B1-113F-4E66-888A-E83F3999EAFD}
+		{74E3B424-9FE6-F77F-33E7-3D607002028C} = {0C20ED23-377B-893B-38EC-DFC030317AE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1575178E-2A18-479C-A2BD-646FF8CFF987}
+	EndGlobalSection
+EndGlobal
