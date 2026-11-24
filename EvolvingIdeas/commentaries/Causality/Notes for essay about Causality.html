@@ -114,6 +114,10 @@
             background-color: #DFD;
         }
 
+        span.keyword {
+            color: red
+        }
+
         .smallLineHeight /* div, table */ {
             font-size: 8.25pt;
             line-height: 150%;
@@ -186,11 +190,18 @@
 </head>
 <body>
     <section id="TODO">
-        <h2>TODO</h2>
+        <h2>Notes for the essay about Causality (draft)</h2>
+        <div class="notesToKeep">A light green background means that the note should not be deleted. </div>
+        <div class="todo">A pink background indicates stashed thoughts had while editing this file. </div>
+        <div>In running text, keywords are linked to the word in the Key Words section and coloured red (e.g. <a href="#context"><span class=keyword>context</span></a>)</div>
         <div>
+            <h2>TODO</h2>
             While doing the following, take notes here in the respective sections, then move them into existing sections (notes) where possible. Structure should emerge.<br />
             Save Interesting links in the Interesting links section.
         </div>
+        <div>
+            I need to think some more about the title/subtitle after writing the essay. "Causality" or "First, Last and Apparent Causes" seem like a good idea.</div>
+
         <ol>
             <li>Read &quot;Early draft.odt&quot; and Notes For Hans (about Penrose) 1.10.2026.html -- </li>
             <li>Read <a href="https://en.wikipedia.org/wiki/Teleology">Wikipedia:Teleology</a>) and <a href="https://plato.stanford.edu/entries/teleology-biology/">The Stanford Encyclopedia of Philosophy:Teleological Notions in Biology</a> -- Make notes here, save links in <a href="#stanfordTeleologicalNotionsInBiology">Interesting Links</a> below. Agglommerate notes into existing sections (notes) in the rest of the file (sections further down) where possible.
@@ -208,41 +219,147 @@
             <li>Write the Index -- giving the essay structure. Reorder the text.</li>
             <li>Complete the essay.</li>
         </ol>
-        <div class="notesToKeep">A light green background means that the note should not be deleted. </div>
+
     </section>
     <hr class="hrTitle" />
     <section id="introduction" class="notesToKeep">
         <h2>Introduction</h2>
-        <div >
+        <div class="todo">
+            
+            TODO: Rewrite the old Introduction (below), rescuing the ideas, then <strong>format the keywords</strong>.<br />
+            I need to explain:<br />
+            1. that this essay is a reaction to Nagel's interviews and his book <em>Mind and Cosmos</em>.<br />
+            2. the gist of the argument I&#39;m trying to make about Causality.<br />
+        </div>
 
+        <br />
+        <div class="todo note">
+            <strong>Old Introduction</strong><br />
+            
+            <div>
+                This essay is the latest in an ongoing series, published at
+                 <center><a target="_blank" href="https://james-ingram-act-two.de/writings/SongSix/evolvingIdeas.html">Song Six: Evolving Ideas</a></center>
+                in which I am attempting to discover what I believe. The ultimate goal is to develop a unified theory of knowledge that overcomes the ongoing schism that has developed between the sciences and the humanities. (See C.P. Snow&#39;s 1959 lecture: <a href="https://en.wikipedia.org/wiki/The_Two_Cultures">The Two Cultures</a>.)
+            </div>
+            <div>
+                Having an open sequence of essays, saved in the same place, allows me to gradually accumulate words and concepts that can be used to describe my world in ever more detail. Fundamental concepts need to be pinned down (defined) sufficiently for the philosophy to develop, so important concepts are defined in each new essay and used in later ones.  Each new well-defined idea changes the <em>context</em>, and therefore leads to new ideas (evolution). This is a special case of a very general rule that is explored in more detail <a href="#meaningAndBeing">below</a>:
+                <em>Context</em> is required for both meaning and evolution.
+            </div>
+            <div>
+                Links to <em>definitions in earlier essays</em> can easily be provided where clarification seems necessary.<br />
+                Links to <em>ideas that are evolving in later essays</em> can also be added (with a time-stamp) when appropriate.<br />
+                The series of essays can thus be viewed as evolving orthogonally to the Arrow of Time (i.e. "all at once"). (Compare this to the ways in which mathematical proofs can be understood.)
+            </div>
+            <div>
+                The idea of <em>orthogonal evolution</em> comes from thinking hard about <em><a href="https://en.wikipedia.org/wiki/Teleology">teleology</a></em>. That's a concept that I hadn't thought about until reading Nagel's book...
+            </div>
+            <div>
+                Apropos Aurobindo and definitions: (see <a href="#meaningAndBeing">Meaning and Being</a> below)I posted the following to a Closer To Truth Video with Thomas Nagel today: 17.11.2026:<br />
+                @quillermobrand6458 Here's a possible answer to "How did that which made us human come into existence?"<br />
+                I'd like to <strong>define consciousness</strong>, rather restrictively, as "what it feels like to think". Thinking evolved in living beings as a prediction mechanism, with survival benefits. The Universe evolves intrinsically, and evolution continually creates new contexts that are the basis for further evolution, so it was inevitable that living beings (the life/death cycle) should evolve: New generations start with fresh memories that can react better to their particular context.<br />
+                As Aurobindo said (in <em>Savitri</em>): <em>We may find when all the rest has failed, Hid in ourselves the key of perfect change.</em>
+            </div>
+            <hr class="internalShort" />
+            <div>
+                Remember to add a link to <a href="#meaningAndBeing">Meaning and Being</a> (Aurobindo) to the end of the notes on entropy (about death) in <em>The Arrow of Time</em>.
+            </div>
+            <hr class="internalShort" />
+            <div>
+                There are two Claude Chats about Penrose&#39;s CCC theory. Add these to the agglomerated Notes.<br />
+                Here&#39;s the beginning of the most recent one:<br />
+                <strong>james:</strong> When did Roger Penrose first propose his Conformant Cyclic Cosmology hypothesis?<br />
+                <strong>claude:</strong> Roger Penrose first proposed Conformal Cyclic Cosmology (CCC) in 2005, presenting it at a conference in Cambridge. He developed the idea further in a 2006 paper, "Before the Big Bang: An Outrageous New Perspective and its Implications for Particle Physics," and then gave a full account in his 2010 book *Cycles of Time: An Extraordinary New View of the Universe*.<br />
+                The core idea is that the universe goes through an endless sequence of "aeons." The remote future of one aeon, when it is empty and dominated by massless particles, becomes mathematically equivalent (via a conformal rescaling) to the Big Bang of the next one.<br />
+                A small note on the name: it's "Conformal" rather than "Conformant" Cyclic Cosmology. The term refers to conformal geometry, which preserves angles but not scale.<br />
+                <strong>james: </strong>Thanks for the correction.<br />
+                In 1973, the composer Stockhausen published the score of his YLEM. The program note, published in the score, says: "Theory of the oscillating universe: Every 80.000,000,000 years the universe explodes, unfolds, and draws together again. The word YLEM is used by some people to designate the periodic explosion, by others to desgnate the essential material."<br />
+                So the oscillating universe theory seems to be older than Penrose's CCC. Where did Stockhausen get the idea that some people use the word YLEM do designate the periodic explosion?<br />
+                <strong>claude:</strong> You're right that oscillating universe models are much older than CCC. Friedmann discussed periodic solutions in the 1920s, and Richard Tolman analyzed oscillating universes in the 1930s. What distinguishes Penrose's proposal is that it avoids Tolman's entropy problem: entropy would accumulate from cycle to cycle, whereas in CCC each aeon connects to the next through a conformal rescaling rather than a bounce.<br />
+                As for Stockhausen's source, I don't know of a documented one, so what follows is informed reconstruction rather than established fact.<br />
+                <strong>The word "ylem."</strong> It was introduced into cosmology by George Gamow and his collaborators Ralph Alpher and Robert Herman in the late 1940s. It comes from an obsolete English word, derived from Aristotle's *hyle* (primordial matter), and Gamow used it for the hot, dense primordial matter from which the elements were built. That is the "essential material" sense in Stockhausen's note. Gamow's popular books and articles spread the term widely.<br />
+                <strong>The "periodic explosion" sense.</strong> I'm not aware of a standard scientific usage where ylem means the explosion itself. This may be a loose popular usage, or Stockhausen's own gloss, which would fit the hedge "by some people... by others." The two meanings may have blurred in popularizations that described the cycle as ylem being compressed and re-expanded.<br />
+                **The "80 billion years" figure.** This looks like it comes from Allan Sandage's work around 1970. Sandage argued, from measurements of the deceleration of cosmic expansion, that the universe might be closed and oscillating, with a cycle on the order of 80 billion years. His results were widely reported, including in *Physics Today* and the popular press, which is likely where Stockhausen encountered them.<br />
+                Stockhausen was an avid reader of popular science and drew on cosmological ideas elsewhere in his work. If you want a firm answer, the best places to look are his own writings and interviews from around 1972-73, and the Stockhausen-Verlag commentary on the score.<br />
+                <strong>james:</strong> Thanks. That was all very helpful! :-)
+            </div>
+            <div>
+                <strong>Relevant Videos</strong><br />
+                They've just announced that the Riemann Hypothess has been proven by AI.<br />
+                There's a lot of discussion in the Math community about where Maths goes from here. See Three Blue One Brown on YouTube:<em> </em><a href="https://www.youtube.com/watch?v=LKrwhjOI8Nc"><em>There's never been a better time to go into math.</em></a> Maths is for me a modelling tool (Its the way we investigate what&#39;s going on beyond the dashboard,), so its state also affects what I&#39;m saying in this essay, And Vice Versa.
+            </div>
         </div>
     </section>
     <section id="definitions" class="notesToKeep">
         <h2>Definitions</h2>
         <ul>
-            <li><strong>consciousness</strong> is &quot;what it feels like to think&quot;<div id="closerToTruthNagel1.17.12026">
-            On <strong>17.11.2026</strong> I replied to a comment by @quillermobrand6458 in <a href="closerToTruthNagel1.17.12026">A Closer ToTruth interview with Nagel</a> as follows:<br />
-            @quillermobrand6458 Here's a possible answer to "How did that which made us human come into existence?"<br />
-I'd like to <strong>define consciousness, rather restrictively, as "what it feels like to think"</strong>. Thinking evolved in living beings as a prediction mechanism, with survival benefits. The Universe evolves intrinsically, and evolution continually creates new contexts that are the basis for further evolution, so it was inevitable that living beings (the life/death cycle) should evolve: New generations start with fresh memories that can react better to their particular context.
-As Aurobindo said (in <em>Savitri</em> ): <em>We may find when all the rest has failed, Hid in ourselves the key of perfect change.</em>
-        </div>
+            <li id="consciousness"><strong>consciousness</strong> is &quot;what it feels like to think&quot;
+                <div>This relates to Descartes' "<em>I think therefore I am.</em>"</div>
+                <div id="closerToTruthNagel1.17.12026" class="todo">
+                    On <strong>17.11.2026</strong> I replied to a comment by @quillermobrand6458 in <a href="https://www.youtube.com/watch?v=0sMU5zkGw2c">A Closer ToTruth interview with Nagel</a> as follows:<br />
+                    @quillermobrand6458 Here's a possible answer to "How did that which made us human come into existence?"<br />
+                    I'd like to <strong>define consciousness, rather restrictively, as "what it feels like to think"</strong>.<br />
+                    Thinking evolved in living beings as a prediction mechanism, with survival benefits. The Universe evolves intrinsically, and evolution continually creates new contexts that are the basis for further evolution, so it was inevitable that living beings (the life/death cycle) should evolve: New generations start with fresh memories that can react better to their particular context.
+As <a href="#Aurobindo"><span class="keyword">Aurobindo</span></a> said (in <em>Savitri</em> ): <em>We may find when all the rest has failed, Hid in ourselves the key of perfect change.</em>
+                </div>
+            </li>
+            <li id="context"><strong>context</strong> is the information that is required for understanding the meaning of a symbol or the evolution of a situation. 
+                See <a target="_blank" href="https://en.wikipedia.org/wiki/Context_principle">Context Principle on Wikipedia</a>. (Frege etc.)            
+            </li>
+            <li id="existence">There are three types of <strong>existence</strong>:
+                    <div>
+
+                        <ul>
+                            <li><strong>Physical</strong>: Physically instantiated sense organs provide information about <strong>physically existing</strong> objects and events beyond the body of which they are part. Such information allows actions to be initiated (food gathering, avoiding predators etc.) that are important for the body's survival.</li>
+                            <li><strong>Conceptual</strong>: The brain processes raw physical experiences (sense data) into higher level concepts whose <strong>existence</strong> promotes efficiency. The ability to form such concepts also leads to speculative fantasies (such as atoms or unicorns) that are not immediately necessary for survival.</li>
+                            <li><strong>Transcendent</strong>: The parts of reality that <strong>exist</strong> (beyond the <a href="#dashboard">dashboard</a>), but that are beyond our capacity to understand. If <em>God</em> and/or an <em>Intelligent Designer</em> exist, they exist transcendentally.</li>
+                        </ul>
+                    </div>
+                <div class="note todo">
+                    Write a new comment on the definitions of existence, combining ideas from the following two notes. <div class="note">
+                        The above three types of existence were developed in emails to Hans
+                        (retrieve the argument from there).<br />
+                        I think it was Hans who said:
+                        "<em>Existenz muß immer im Kontext qualifiziert werden, falls notwendig.</em>"
+                    </div>
+
+                    <div class="note">
+                        <div>
+                            The following ideas need to be rewritten to remove the references to the Hawkins-Smith interview.
+                        </div>
+                        <div>
+                            <strong>38:42</strong> "Once the [Stern-Gerlach] experiment's over, once the magnets are removed, the thing you were measuring against is no longer there. Doesn't persist in the world like gravity, right?
+and
+39:53 "the instrument literally creates the thing that what you're measuring is being measured against.
+                        </div>
+                        <div>
+                            <strong>39:13</strong> "Okay, so if you take the double slit experiment, right, that you fire an electron, it goes through two slits and creates the wave interference patterns on the detection screen..."
+                        </div>
+                        <div>
+                            I don't see that <strong>38:42</strong> follows. Quite possibly, spin exists when we are not looking, just as the dark side of the Moon exists... We are just not built to perceive spin directly. (Actually, this is about the nature of "exist".)
+[old comment: I don't agree with Dr Smith that the apparatus is the problem.
+I think that the universe is evolving intrinsically, so that (at the quantum level) its different every time one makes a measurement. This is much closer to the standard explanation than Dr Smith's approach. (Though I agree with him at 00:25:00 to 00:25:55.) In my approach the observer and his/her subjective "Eigentime" are important.
+In other words, I think Dr Smith is underestimating the role played by time (both physical and subjective) in the real world.]
+                        </div>
+                        <div>
+                            <strong>39:13</strong> is okay: the interference pattern is an artefact of the experiment itself. We are simply not built to perceive what's going on in spacetime (which can be modelled using mathematics). Experiments are not done in spacetime, they are done in space and time separately: Space and Time are brain strategies for reducing complexity. That means that there are things that "exist" in spacetime, that we are simply not built to perceive.
+                        </div>
+                    </div>
+
+                </div>
             </li>
             <li>TODO: more definitions with background info.</li>
-        </ul>            
+        </ul>
     </section>
-        <section id="evolution" class="notesToKeep">
-        <h2>Evolution</h2>
-        <div >
-
-            See Definitions/consciousness: The Universe has intrinsic timeness, so evolves intrinsically. Evolution applies to both material (physical) and non-material (cultural) aspects without restriction. So the evolution of consciousness was inevitable.
-
-        </div>
-    </section>
-    <section id="teleology" class="notesToKeep">
-        <h2>Teleology</h2>
-        <div >
-
-        </div>
+    <section id="KeyWords" class="notesToKeep">
+        <h2>Key Words</h2>
+        <ul>
+            <li id="Aurobindo">Aurobindo</li>
+            <li id="causality">causality</li>
+            <li id="cosmology">cosmology</li>
+            <li id="dashboard">dashboard</li>
+            <li id="evolution">evolution</li>
+            <li id="teleology"><a href="https://en.wikipedia.org/wiki/Teleology">teleology</a>, <a href="https://en.wikipedia.org/wiki/Teleonomy">teleonomy</a></li>
+        </ul>
     </section>
     <section id="notesOnOldTexts">
         <hr class="hrSection" />
@@ -256,11 +373,12 @@ As Aurobindo said (in <em>Savitri</em> ): <em>We may find when all the rest has 
         <hr class="hrSection" />
         <h2>2. Notes on Teleology (Reading Wikipedia and Stanford Encyclopedia)</h2>
         <ol>
-            <li>Discuss how the dashboard hypothesis and teleology affect <strong>causality</strong>: (timeness in spacetime is not time in space and time). TODO: Do this with Claude! :-)
+            <li>Discuss how the <a href="#dashboard"><span class="keyword">dashboard</span></a> hypothesis and <a href="#teleology"><span class="keyword">teleology</span></a> affect <strong><a href="#causality"><span class="keyword">causality</span></a></strong>: (timeness in spacetime is not time in space and time). TODO: Do this with Claude! :-)
 
 
             </li>
-            <li>Circles as symbols of the world (relates to teleology and Penrose/Turok CCC):
+            <li>Keywords <a href="#teleology"><span class="keyword">teleology</span></a> and <a href="#cosmology"><span class="keyword">cosmology</span></a><br />
+                Circles as symbols of the world:
                 <ol>
                     <li>See my <a href="https://james-ingram-act-two.de/krystals/krystalsIntro.html">Short Introduction to Krystals</a></li>
                     <li>
@@ -285,23 +403,69 @@ As Aurobindo said (in <em>Savitri</em> ): <em>We may find when all the rest has 
     <section id="NagelsMindAndCosmos">
         <hr class="hrSection" />
         <h2>3. Notes on Mind and Cosmos</h2>
-        <div>I've finished making pencil notes in my copy of Nagel's <em>Mind and Cosmos</em> and now want to start collecting thoughts <em>here</em> while reading it through again.</div>
-        <div>Before I start, here are the most important things to bear in mind (recorded on the title page of <em>Mind and Cosmos</em> in pencil):</div>
+
+        <div>The original points recorded on the title page of <em>Mind and Cosmos</em> (in pencil):</div>
         <ul>
-            <li>Nagel seems unaware of Donald Hoffman's insight (that I share) that we don't perceive the world as it really is: that we have an interface of perception that provides us with a simplified version of reality that allows us to survive [see pages 108, 111, 112, 125]
+            <li>Keyword: <a href="#dashboard"><span class="keyword">dashboard</span></a>: Nagel seems unaware of Donald Hoffman's insight (that I share) that we don't perceive the world as it really is: that we have an interface of perception that provides us with a simplified version of reality that allows us to survive [see pages 108, 111, 112, 125]
                 <br>
                 Hoffman's insight provides a much simpler answer that agrees with Nagel's subtitle (that the materialist neo-Darwinian conception of nature is almost certainly false) without having to postulate controversial things like "value realism". In fact Hoffman's insight contains both subjectivism and realism, that seem for Nagel to be mutually exclusive.</li>
-            <li>Nagel, I think, uses the word "idealism" in the original Berkleyan sense of "reality is a creation of the mind".</li>
-            <li>The Origin of life: see my comment (Aurobindo etc.) on Nagel's Closer to Truth interview (copied to the <a href="https://james-ingram-act-two.de/writings/SongSix/EvolvingIdeas/commentaries/TimeAndMeaning/TimeAndMeaning.html">draft of my <em>Time and Meaning</em></a>) [see page 6 note]</li>
+
+            <li>Keyword: <a href="#dashboard"><span class="keyword">dashboard</span></a>: Nagel, I think, uses the word "idealism" in the original Berkleyan sense of "reality is a creation of the mind".</li>
+            <li>Keywords: <a href="#Aurobindo"><span class="keyword">Aurobindo</span></a>, <a href="#consciousness"><span class="keyword">consciousness</span></a>: The Origin of life: see my comment (Aurobindo etc.) on Nagel's Closer to Truth interview in <a href="https://james-ingram-act-two.de/writings/SongSix/EvolvingIdeas/commentaries/Causality/Causality.html">Causality.htm</a>)
+    <div id="meaningAndBeing" class="todo">
+        <h2>Meaning and Being</h2>
+        <div class="TODO">
+            <div>
+                Mathematical models are not the physical reality they are modelling. Keyword <a target="_self" href="#existence"><span class="keyword">existence</span></a>.
+                    <br />
+                <br />
+                The question &quot;Does an intelligent designer <strong>exist</strong>?&quot; can be replaced by the question &quot;What does the cosmos <em>mean</em>?&quot; or &quot;Why does the cosmos exist?&quot;. <em>Meaning</em> is given by the observer, and depends on the observer&#39;s beliefs and cultural context.<br />
+
+                <br />
+                Note that Stockhausen&#39;s YLEM (1973) references the hypothesis that Big Bangs recur in an unending cycle (<a href="cosmology"><span class="keyword">cosmology</span></a>). This is an idea that goes back to ancient times, much earlier than Penrose or Turok. Stockhausen was, as a musician, very interested in investigating different kinds of spatio-temporal form, and was naturally taken by ancient ideas on the subject. For example in ancient Hinduism as interpreted by <a href="https://en.wikipedia.org/wiki/Sri_Aurobindo"><span class="keyword">Aurobindo</span></a>.
+            </div>
+        </div>
+        <div>
+            <img src="https://james-ingram-act-two.de/writings/SongSix/EvolvingIdeas/commentaries/Causality/images/Aurobindo_Simon_small.png" alt="" />
+            <center class="small" style="padding-top: 5px">
+                <em>"We may find when all the rest has failed<br />
+                    Hid in ourselves the key of perfect change."</em><br />
+                &mdash; Aurobindo in <em>Savitri</em>
+            </center>
+        </div>
+
+        See the definition of <a href="#existence"><span class="keyword">existence</span></a>.<br />
+        Some of our perceptions of the physical world are less amenable to mathematical description.&nbsp;<br />
+        Meaning and evolution have interestingly different relations to time...<br />
+        <a href="#context"><span class="keyword">Context</span></a> gives meaning to being: Evolution, Words in sentences, (etc?)
+        <br />
+    </div>
+
+            </li>
             <li>Nagel seems to accept the Big Bang as the beginning of time (maybe tentatively). I prefer Penrose's Conformal Cyclic Cosmology, so there is no beginning of time. (See also the Claude chat re Stockhausen/YLEM in the <a href="https://james-ingram-act-two.de/writings/SongSix/EvolvingIdeas/commentaries/TimeAndMeaning/TimeAndMeaning.html">draft</a>).</li>
-            <li>I didn't originally understand the term <em><strong>Teleology</strong></em> while reading Nagel's book. It seemed to have something to do with theology, but that's quite wrong. So I need to read Nagel's book again to see how that changes my understanding of what he says.
+            <li>I didn't originally understand the term <em><strong><a href="#teleology"><span class="keyword">teleology</span></a></strong></em> while reading Nagel's book. It seemed to have something to do with theology, but that's quite wrong. So I need to read Nagel's book again to see how that changes my understanding of what he says.
 
             </li>
         </ul>
-        <div>Collecting other points:</div>
         <div>
-            <h2><a href="https://en.wikipedia.org/wiki/Teleology">Teleology</a> and <a href="https://en.wikipedia.org/wiki/Teleonomy">Teleonomy</a></h2>
+            New Points recorded in my small notebook (18. and 20.11.2026):
+            <ul>
+                <li>The Universe has intrinsic timeness, so evolves intrinsically. Evolution applies to both material (physical) and non-material (cultural) aspects without restriction. So the evolution of consciousness was <em>inevitable</em>.
+                    <div class="todo">Keywords: <a href="#teleology"><span class="keyword">teleology</span></a> ("intrinsic&quot;), <a href="#evolution"><span class="keyword">evolution</span></a>, <a href="#consciousness"><span class="keyword">consciousness</span></a></div>
+                </li>
+                <li>
+                    <div class="todo">Keywords: <a href="causality"><span class="keyword">causality</span></a></div>
+
+                </li>
+            </ul>
         </div>
+        <div>
+            New Points recorded while re-reading Mind and Cosmos:
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+
 
 
 
@@ -363,7 +527,35 @@ As Aurobindo said (in <em>Savitri</em> ): <em>We may find when all the rest has 
         <h2>Interesting Links</h2>
 
         <a href="https://en.wikipedia.org/wiki/Teleology">Wikipedia:Teleology</a><br />
-        <a href="https://plato.stanford.edu/entries/teleology-biology/">The Stanford Encyclopedia of Philosophy:Teleological Notions in Biology</a>
+        <a href="https://plato.stanford.edu/entries/teleology-biology/">The Stanford Encyclopedia of Philosophy:Teleological Notions in Biology</a><br />
+        <div>
+            Interviews between Robert Lawrence Kuhn (Closer to Truth) and Thomas Nagel
+            <div class="indent1">
+                <a target="_blank" href="https://www.youtube.com/watch?v=0sMU5zkGw2c">The Missing Concept That Could Unite Mind and Brain</a>
+                </div>
+            <div class="indent1 todo">
+                <a target="_blank" href="https://www.youtube.com/watch?v=nueiTsocExc&amp&t=4s">Thomas Nagel: What Is It Like to Be a Bat? (Full Conversation) 1:52:12</a>       
+            </div>
+        </div>
+&nbsp;<div class="note todo">
+        <div id="relatedLinks">
+            <h3>Related Links</h3>
+            Interviews by Curt Jaimungal:
+            <div class="indent1">
+                <a target="_blank" href="https://www.youtube.com/watch?v=n8453niGF1E&t=0s">Jim Al-Khalili: The (Unsettling) Reason Time Only Runs One Way</a><br />
+                <a target="_blank" href="https://www.youtube.com/watch?v=iO03t21xhdk&t=0s">Sir Roger Penrose: &quot;My Crazy Idea That Explains the Universe&quot;</a><br />
+                <a target="_blank" href="https://www.youtube.com/watch?v=-gwhqmPqRl4&t=0s">Neil Turok #1: Why The Big Bang Was Actually a Cosmic Mirror...</a><br />
+                <a target="_blank" href="https://www.youtube.com/watch?v=OYeC_BNWosE&t=0s">Neil Turok #2: What If The Universe Creates Itself?...</a>
+            </div>
+
+            Thomas Nagel <span class="indent1size">(online material)</span>
+            <div class="indent1">
+                <a target="_blank" href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel,%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Article: What Is It Like to Be a Bat?</a><br />
+                <a target="_blank" href="https://archive.org/details/thomas-nagel-mind-and-cosmos_202309/">Book: Mind and Cosmos</a>
+            </div>
+        </div>
+
+        </div>
     </section>
     <hr />
 </body>
