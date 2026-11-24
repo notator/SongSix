@@ -96,7 +96,7 @@
             padding: 0;
         }
 
-        div.todo {
+        .todo { /*div, section*/
             background-color: #FFCCCC;
         }
 
@@ -189,54 +189,95 @@
     </style>
 </head>
 <body>
-    <section id="TODO">
+    <section id="todo">
         <h2>Notes for the essay about Causality (draft)</h2>
-        <div class="notesToKeep">A light green background means that the note should not be deleted. </div>
-        <div class="todo">A pink background indicates stashed thoughts had while editing this file. </div>
-        <div>In running text, keywords are linked to the word in the Key Words section and coloured red (e.g. <a href="#context"><span class=keyword>context</span></a>)</div>
-        <div>
-            <h2>TODO</h2>
-            While doing the following, take notes here in the respective sections, then move them into existing sections (notes) where possible. Structure should emerge.<br />
-            Save Interesting links in the Interesting links section.
+        <div class="notesToKeep">A light green background means: do not delete. </div>
+        <div class="todo">A pink background indicates that the div or section needs attention (TODO). </div>
+        <div>In running text, keywords are linked to the word in the Key Words section and coloured red (e.g. <a href="#context"><span class="keyword">context</span></a>)</div>
+        <hr class="hrTitle" />
+        <div class="todo">
+            <div>
+                <h2>TODO</h2>
+                While doing the following, take notes here in the respective sections, then move them into existing sections (notes) where possible. Structure should emerge.<br />
+                Save Interesting links in the Interesting links section.
+            </div>
+            <div>
+                <strong>I need to think some more about the title/subtitle</strong> after writing the essay. "Causality" or "First, Last and Apparent Causes" seem like a good idea.<br />
+                <strong>Explain the two slit experiment</strong>: why <em>measurement</em> collapses the wave function in quantum mechanics.<br />
+                Its because our <em>Interface of Perception</em> (the <a href="#dashboard"><span class="keyword">dashboard</span></a>) shows us space+time, not the spacetime modelled by the math.<br />
+                Suggest that this might be a way for neurologists to start investigating how the brain implements the <em>Interface of Perception</em>.
+            </div>
+
+            <ol>
+                <li>Read &quot;Early draft.odt&quot; and Notes For Hans (about Penrose) 1.10.2026.html -- </li>
+                <li>Read <a href="https://en.wikipedia.org/wiki/Teleology">Wikipedia:Teleology</a>) and <a href="https://plato.stanford.edu/entries/teleology-biology/">The Stanford Encyclopedia of Philosophy:Teleological Notions in Biology</a> -- Make notes here, save links in <a href="#stanfordTeleologicalNotionsInBiology">Interesting Links</a> below. Agglommerate notes into existing sections (notes) in the rest of the file (sections further down) where possible.
+                </li>
+                <li>Move the handwritten notes on <em>Mind and Cosmos</em> from my small notebook here, then read <em>Mind and Cosmos</em> again, making sure that I've captured all the relevant insights.</li>
+                <li>Further thoughts (e.g. about Penrose/Turok CCC - see the two Claude chats).</li>
+
+            </ol>
+            <div>Then, in the file "Causality.htm":</div>
+            <ol>
+                <li>Go through Causality.htm classing all divs that I want to keep as "forCausality" (i.e. give them a green background). (There's already a "forCausality" in the introduction.)</li>
+                <li>Delete all unwanted material (or class it with a blue background, as toBeDeleted). There's a backup in MeasurementAndMeaning.htm.</li>
+                <li>Remove the "forCausality" class (all backgrounds except "todo" go white.)</li>
+                <li>Write the Index -- giving the essay structure. Reorder the text.</li>
+                <li>Complete the essay.</li>
+            </ol>
         </div>
-        <div>
-            I need to think some more about the title/subtitle after writing the essay. "Causality" or "First, Last and Apparent Causes" seem like a good idea.<br />
-            <strong>Can I explain why photons go through both slits in the double-slit experiment (using spacetime vs space+time)?</strong></div>
-
-        <ol>
-            <li>Read &quot;Early draft.odt&quot; and Notes For Hans (about Penrose) 1.10.2026.html -- </li>
-            <li>Read <a href="https://en.wikipedia.org/wiki/Teleology">Wikipedia:Teleology</a>) and <a href="https://plato.stanford.edu/entries/teleology-biology/">The Stanford Encyclopedia of Philosophy:Teleological Notions in Biology</a> -- Make notes here, save links in <a href="#stanfordTeleologicalNotionsInBiology">Interesting Links</a> below. Agglommerate notes into existing sections (notes) in the rest of the file (sections further down) where possible.
-            </li>
-            <li>Move the handwritten notes on <em>Mind and Cosmos</em> from my small notebook here, then read <em>Mind and Cosmos</em> again, making sure that I've captured all the relevant insights.</li>
-            <li>Further thoughts (e.g. about Penrose/Turok CCC - see the two Claude chats).</li>
-
-        </ol>
-        <div>Then, in the file "Causality.htm":</div>
-
-        <ol>
-            <li>Go through Causality.htm classing all divs that I want to keep as "forCausality" (i.e. give them a green background). (There's already a "forCausality" in the introduction.)</li>
-            <li>Delete all unwanted material (or class it with a blue background, as toBeDeleted). There's a backup in MeasurementAndMeaning.htm.</li>
-            <li>Remove the "forCausality" class (all backgrounds except "todo" go white.)</li>
-            <li>Write the Index -- giving the essay structure. Reorder the text.</li>
-            <li>Complete the essay.</li>
-        </ol>
-
     </section>
-    <hr class="hrTitle" />
+    
+    <section id="index" class="todo" style="margin: 10px 0 10px 0;">
+        <hr class="hrSection" />
+        <h2 style="margin: 0;">Index</h2>
+        <!-- 
+        <div style="padding: 0 0 0 160px; margin: 0">
+            <a href="#introduction" target="_self">Introduction</a><br />
+            <a href="#measurement" target="_self">Measurement</a>
+            <div class="indent1">
+                <a href="#aNoteOnMathematics" target="_self">A Note on Mathematics</a><br />
+                <a href="#physicalReality" target="_self">Physical Reality</a><br />
+                <a href="#physicalApparatus" target="_self">Physical Apparatus</a><br />
+                <a href="#reversibilityInRelativity" target="_self">Reversibility in Relativity</a><br />
+                <a href="#reversibilityInCosmology" target="_self">Reversibility in Cosmology</a><br />
+                <div class="todo">
+                    The above sections are in the right order, but some of them should not be &quot;notes&quot;.<br />
+                    I'm working through the whole essay making it a logical sequence. This is where I've got to.
+                </div>
+                <a href="#orderingAndClosure" target="_self">Ordering and Closure</a>
+            </div>
+            <a href="#meaningAndBeing" target="_self">Meaning and Being</a><br />
+            <div class="indent1">
+                <a href="#existence" target="_self">Existence</a><br />
+                <a href="#context" target="_self">Context</a>
+            </div>
+            <a href="#theHawkinsSmithInterview" target="_self">The Hawkins-Smith Interview</a><br />
+            <div class="indent1">
+                <a target="_self" href="#aConsideredReply">A Considered Reply</a><br />
+                <a target="_self" href="#originalNotes">Original Notes</a>
+            </div>
+            <a href="#appendix" target="_self">Appendix</a><br />
+            <div class="indent1">
+                <a href="#glossary" target="_self">Glossary</a><br />
+                <a href="#relatedLinks" target="_self">Related Links</a><br />
+                <a href="#acknowledgements" target="_self">Acknowledgements</a>
+            </div>
+
+        </div>
+        -->
+    </section>
     <section id="introduction" class="notesToKeep">
+        <hr class="hrSection" />
         <h2>Introduction</h2>
         <div class="todo">
-            
             TODO: Rewrite the old Introduction (below), rescuing the ideas, then <strong>format the keywords</strong>.<br />
             I need to explain:<br />
             1. that this essay is a reaction to Nagel's interviews and his book <em>Mind and Cosmos</em>.<br />
             2. the gist of the argument I&#39;m trying to make about Causality.<br />
         </div>
-
         <br />
         <div class="todo note">
             <strong>Old Introduction</strong><br />
-            
             <div>
                 This essay is the latest in an ongoing series, published at
                  <center><a target="_blank" href="https://james-ingram-act-two.de/writings/SongSix/evolvingIdeas.html">Song Six: Evolving Ideas</a></center>
@@ -286,11 +327,12 @@
             <div>
                 <strong>Relevant Videos</strong><br />
                 They've just announced that the Riemann Hypothess has been proven by AI.<br />
-                There's a lot of discussion in the Math community about where Maths goes from here. See Three Blue One Brown on YouTube:<em> </em><a href="https://www.youtube.com/watch?v=LKrwhjOI8Nc"><em>There's never been a better time to go into math.</em></a> Maths is for me a modelling tool (Its the way we investigate what&#39;s going on beyond the dashboard,), so its state also affects what I&#39;m saying in this essay, And Vice Versa.
+                There's a lot of discussion in the Math community about where Maths goes from here. See Three Blue One Brown on YouTube:<em> </em><a href="https://www.youtube.com/watch?v=LKrwhjOI8Nc"><em>There's never been a better time to go into math.</em></a> Maths is for me a modelling tool (Its the way we investigate what&#39;s going on beyond the <a href="#dashboard"><span class="keyword">dashboard</span></a>,), so its state also affects what I&#39;m saying in this essay, And Vice Versa.
             </div>
         </div>
     </section>
     <section id="definitions" class="notesToKeep">
+        <hr class="hrSection" />
         <h2>Definitions</h2>
         <ul>
             <li id="consciousness"><strong>consciousness</strong> is &quot;what it feels like to think&quot;
@@ -312,11 +354,12 @@ As <a href="#Aurobindo"><span class="keyword">Aurobindo</span></a> said (in <em>
                         <ul>
                             <li><strong>Physical</strong>: Physically instantiated sense organs provide information about <strong>physically existing</strong> objects and events beyond the body of which they are part. Such information allows actions to be initiated (food gathering, avoiding predators etc.) that are important for the body's survival.</li>
                             <li><strong>Conceptual</strong>: The brain processes raw physical experiences (sense data) into higher level concepts whose <strong>existence</strong> promotes efficiency. The ability to form such concepts also leads to speculative fantasies (such as atoms or unicorns) that are not immediately necessary for survival.</li>
-                            <li><strong>Transcendent</strong>: The parts of reality that <strong>exist</strong> (beyond the <a href="#dashboard">dashboard</a>), but that are beyond our capacity to understand. If <em>God</em> and/or an <em>Intelligent Designer</em> exist, they exist transcendentally.</li>
+                            <li><strong>Transcendent</strong>: The parts of reality that <strong>exist</strong> (beyond the <a href="#dashboard"><span class="keyword">dashboard</span></a>), but that are beyond our capacity to understand. If <em>God</em> and/or an <em>Intelligent Designer</em> exist, they exist transcendentally.</li>
                         </ul>
                     </div>
                 <div class="note todo">
-                    Write a new comment on the definitions of existence, combining ideas from the following two notes. <div class="note">
+                    Write a new comment on the definitions of existence, combining ideas from the following two notes.
+                    <div class="note">
                         The above three types of existence were developed in emails to Hans
                         (retrieve the argument from there).<br />
                         I think it was Hans who said:
@@ -352,6 +395,7 @@ In other words, I think Dr Smith is underestimating the role played by time (bot
         </ul>
     </section>
     <section id="KeyWords" class="notesToKeep">
+        <hr class="hrSection" />
         <h2>Key Words</h2>
         <ul>
             <li id="Aurobindo">Aurobindo</li>
@@ -489,10 +533,11 @@ In other words, I think Dr Smith is underestimating the role played by time (bot
             <li>Complete the essay.</li>
         </ol>
     </section>
-    <hr class="hrTitle" />
-    <div class="notesToKeep" id="notesToKeep2">
+
+    <section class="notesToKeep" id="notesToKeep2">
+        <hr class="hrSection" />
         <h2>Notes To Keep (2)</h2>
-    </div>
+    </section>
     <section id="YouTubeComments" class="notesToKeep">
         <hr class="hrSection" />
         <h2>YouTube Comments</h2>
@@ -515,7 +560,7 @@ In other words, I think Dr Smith is underestimating the role played by time (bot
             The <em>Interface Theory of Perception</em> seems to belong with Quantum Theory and the Theory of Evolution, in a meta-scientific category: These are useful ways of thinking that lead to progress, but which cannot be proven or disproven either empirically or with mathematical certainty.<br />
             <div class="todo">
                 Note (<strong>23.11.2026</strong>):
-                    The scientific method discovers truth in two ways: the empirical and the mathematical. These truths correspond to the two sides of the dashboard, and both kinds <strong>evolve</strong>.
+                    The scientific method discovers truth in two ways: the empirical and the mathematical. These truths correspond to the two sides of the <a href="#dashboard"><span class="keyword">dashboard</span></a>, and both kinds <strong>evolve</strong>.
             </div>
             Hoffman said at the beginning (<a href="https://youtu.be/cWEdAnIULIQ&amp;t=4">0:04</a>) "What we perceive in our spacetime headset could be utterly and completely unlike anything in objective reality."
           <br>
@@ -533,15 +578,15 @@ In other words, I think Dr Smith is underestimating the role played by time (bot
             Interviews between Robert Lawrence Kuhn (Closer to Truth) and Thomas Nagel
             <div class="indent1">
                 <a target="_blank" href="https://www.youtube.com/watch?v=0sMU5zkGw2c">The Missing Concept That Could Unite Mind and Brain</a>
-                </div>
+            </div>
             <div class="indent1 todo">
-                <a target="_blank" href="https://www.youtube.com/watch?v=nueiTsocExc&amp&t=4s">Thomas Nagel: What Is It Like to Be a Bat? (Full Conversation) 1:52:12</a>       
+                <a target="_blank" href="https://www.youtube.com/watch?v=nueiTsocExc&amp&t=4s">Thomas Nagel: What Is It Like to Be a Bat? (Full Conversation) 1:52:12</a>
             </div>
         </div>
-&nbsp;<div class="note todo">
-        <div id="relatedLinks">
-            <h3>Related Links</h3>
-            Interviews by Curt Jaimungal:
+        &nbsp;<div class="note todo">
+            <div id="relatedLinks">
+                <h3>Related Links</h3>
+                Interviews by Curt Jaimungal:
             <div class="indent1">
                 <a target="_blank" href="https://www.youtube.com/watch?v=n8453niGF1E&t=0s">Jim Al-Khalili: The (Unsettling) Reason Time Only Runs One Way</a><br />
                 <a target="_blank" href="https://www.youtube.com/watch?v=iO03t21xhdk&t=0s">Sir Roger Penrose: &quot;My Crazy Idea That Explains the Universe&quot;</a><br />
@@ -549,15 +594,15 @@ In other words, I think Dr Smith is underestimating the role played by time (bot
                 <a target="_blank" href="https://www.youtube.com/watch?v=OYeC_BNWosE&t=0s">Neil Turok #2: What If The Universe Creates Itself?...</a>
             </div>
 
-            Thomas Nagel <span class="indent1size">(online material)</span>
-            <div class="indent1">
-                <a target="_blank" href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel,%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Article: What Is It Like to Be a Bat?</a><br />
-                <a target="_blank" href="https://archive.org/details/thomas-nagel-mind-and-cosmos_202309/">Book: Mind and Cosmos</a>
+                Thomas Nagel <span class="indent1size">(online material)</span>
+                <div class="indent1">
+                    <a target="_blank" href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel,%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Article: What Is It Like to Be a Bat?</a><br />
+                    <a target="_blank" href="https://archive.org/details/thomas-nagel-mind-and-cosmos_202309/">Book: Mind and Cosmos</a>
+                </div>
             </div>
-        </div>
 
         </div>
     </section>
-    <hr />
+    <hr class="hrTitle" />
 </body>
 </html>
